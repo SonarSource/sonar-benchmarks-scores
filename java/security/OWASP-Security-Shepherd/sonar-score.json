@@ -1,5 +1,5 @@
 {
-    "Name": "OWASP-Security-Shepherd",
+    "name": "OWASP-Security-Shepherd",
     "lastUpdate":  "2023-09-20",
     "numberOfTestCases": 200,
     "truePositiveRate": 98,
