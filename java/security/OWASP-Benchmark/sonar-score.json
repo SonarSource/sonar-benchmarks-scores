@@ -1,5 +1,5 @@
 {
-    "Name": "OWASP Benchmark",
+    "name": "OWASP Benchmark",
     "lastUpdate":  "2023-09-20",
     "numberOfTestCases": 1641,
     "truePositiveRate": 92.99,
