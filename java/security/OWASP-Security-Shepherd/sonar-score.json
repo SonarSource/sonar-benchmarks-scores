@@ -2,6 +2,6 @@
     "name": "OWASP-Security-Shepherd",
     "lastUpdate":  "2023-09-20",
     "numberOfTestCases": 200,
-    "truePositiveRate": 98,
+    "truePositiveRate": 98.00,
     "falseDiscoveryRate": 2.49
 }
