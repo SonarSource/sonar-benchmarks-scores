@@ -1,0 +1,1773 @@
+{
+    "version": "4013446e9269bf5e6ce8acbb774b82339dafaaf6",
+    "ignoredIssues": {
+      "S2092": [
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00087.java",
+          "lines": [
+            91
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00169.java",
+          "lines": [
+            80
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00170.java",
+          "lines": [
+            91
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00241.java",
+          "lines": [
+            85
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00300.java",
+          "lines": [
+            79
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00348.java",
+          "lines": [
+            64
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00403.java",
+          "lines": [
+            70
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00491.java",
+          "lines": [
+            73
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00565.java",
+          "lines": [
+            79
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00566.java",
+          "lines": [
+            81
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00736.java",
+          "lines": [
+            72
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00820.java",
+          "lines": [
+            89
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00821.java",
+          "lines": [
+            90
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00903.java",
+          "lines": [
+            85
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00977.java",
+          "lines": [
+            84
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01061.java",
+          "lines": [
+            70
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01134.java",
+          "lines": [
+            80
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01185.java",
+          "lines": [
+            72
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01186.java",
+          "lines": [
+            72
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01187.java",
+          "lines": [
+            72
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01280.java",
+          "lines": [
+            65
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01281.java",
+          "lines": [
+            65
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01282.java",
+          "lines": [
+            65
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01283.java",
+          "lines": [
+            65
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01521.java",
+          "lines": [
+            67
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01682.java",
+          "lines": [
+            89
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01683.java",
+          "lines": [
+            89
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01789.java",
+          "lines": [
+            66
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01861.java",
+          "lines": [
+            84
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest02005.java",
+          "lines": [
+            80
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest02142.java",
+          "lines": [
+            65
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest02339.java",
+          "lines": [
+            79
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest02427.java",
+          "lines": [
+            67
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest02507.java",
+          "lines": [
+            67
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest02709.java",
+          "lines": [
+            66
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest02710.java",
+          "lines": [
+            66
+          ],
+          "comment": "Cookie 'SomeCookie' does not contain a sensitive value. It doesn't require the secure flag to be set."
+        }
+      ],
+      "S3330": [
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00001.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00001' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00002.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00002' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00003.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00003' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00004.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00004' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00053.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00053' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00054.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00054' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00055.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00055' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00056.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00056' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00057.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00057' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00058.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00058' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00059.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00059' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00060.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00060' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00061.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00061' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00062.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00062' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00063.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00063' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00064.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00064' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00065.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00065' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00066.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00066' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00067.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00067' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00068.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00068' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00069.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00069' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00070.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00070' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00071.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00071' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00072.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00072' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00073.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00073' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00074.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00074' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00075.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00075' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00076.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00076' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00077.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00077' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00078.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00078' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00079.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00079' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00080.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00080' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00081.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00081' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00082.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00082' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00083.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00083' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00084.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00084' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00085.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00085' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00086.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00086' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00087.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00087' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00088.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00088' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00089.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00089' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00090.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00090' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00091.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00091' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00092.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00092' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00093.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00093' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00094.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00094' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00095.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00095' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00096.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00096' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00097.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00097' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00098.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00098' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00099.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00099' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00100.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00100' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00101.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00101' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00102.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00102' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00103.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00103' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00104.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00104' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00105.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00105' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00106.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00106' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00107.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00107' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00108.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00108' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00109.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00109' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00110.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00110' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00111.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00111' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00112.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00112' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00113.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00113' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00114.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00114' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00115.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00115' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00116.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00116' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00117.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00117' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00118.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00118' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00942.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00942' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00943.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00943' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00944.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00944' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00945.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00945' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00946.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00946' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00947.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00947' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00948.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00948' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00949.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00949' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00950.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00950' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00951.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00951' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00952.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00952' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00953.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00953' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00954.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00954' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00955.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00955' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00956.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00956' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00957.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00957' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00958.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00958' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00959.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00959' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00960.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00960' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00961.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00961' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00962.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00962' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00963.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00963' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00964.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00964' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00965.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00965' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00966.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00966' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00967.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00967' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00968.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00968' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00969.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00969' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00970.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00970' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00971.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00971' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00972.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00972' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00973.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00973' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00974.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00974' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00975.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00975' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00976.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00976' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00977.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00977' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00978.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00978' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00979.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00979' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00980.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00980' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00981.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00981' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00982.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00982' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00983.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00983' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00984.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00984' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00985.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00985' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00986.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00986' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00987.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00987' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00988.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00988' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00989.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00989' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00990.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00990' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00991.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00991' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00992.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00992' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00993.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00993' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00994.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00994' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00995.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00995' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00996.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00996' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00997.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00997' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00998.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00998' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00999.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest00999' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01000.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01000' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01001.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01001' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01002.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01002' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01003.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01003' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01004.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01004' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01005.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01005' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01006.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01006' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01007.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01007' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01008.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01008' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01009.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01009' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01010.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01010' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01011.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01011' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01012.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01012' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01013.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01013' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01014.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01014' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01822.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01822' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01823.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01823' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01824.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01824' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01825.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01825' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01826.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01826' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01827.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01827' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01828.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01828' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01829.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01829' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01830.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01830' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01831.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01831' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01832.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01832' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01833.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01833' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01834.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01834' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01835.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01835' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01836.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01836' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01837.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01837' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01838.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01838' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01839.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01839' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01840.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01840' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01841.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01841' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01842.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01842' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01843.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01843' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01844.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01844' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01845.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01845' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01846.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01846' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01847.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01847' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01848.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01848' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01849.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01849' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01850.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01850' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01851.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01851' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01852.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01852' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01853.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01853' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01854.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01854' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01855.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01855' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01856.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01856' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01857.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01857' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01858.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01858' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01859.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01859' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01860.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01860' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01861.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01861' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01862.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01862' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01863.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01863' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01864.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01864' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01865.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01865' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01866.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01866' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01867.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01867' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01868.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01868' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01869.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01869' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01870.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01870' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01871.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01871' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01872.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01872' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01873.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01873' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01874.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01874' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01875.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01875' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01876.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01876' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01877.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01877' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01878.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01878' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01879.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01879' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01880.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01880' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01881.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01881' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01882.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01882' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01883.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01883' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01884.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01884' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01885.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01885' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01886.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01886' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01887.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01887' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01888.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01888' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01889.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01889' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01890.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01890' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01891.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01891' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01892.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01892' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01893.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01893' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        },
+        {
+          "fileId": "owasp-benchmark:src/main/java/org/owasp/benchmark/testcode/BenchmarkTest01894.java",
+          "lines": [
+            37
+          ],
+          "comment": "Cookie 'BenchmarkTest01894' does not contain a sensitive value. It doesn't require the HttpOnly flag to be set."
+        }
+      ]
+    }
+  }
