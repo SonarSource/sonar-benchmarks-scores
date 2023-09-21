@@ -1,5 +1,5 @@
 {
-    "Name": "OWASP-WebGoat",
+    "name": "OWASP-WebGoat",
     "lastUpdate":  "2023-09-20",
     "numberOfTestCases": 69,
     "truePositiveRate": 88.41,
