@@ -1,0 +1,1208 @@
+{
+    "version": "00310cf2b73ed98843c653490a4be274de4fb896",
+    "expectedIssues": {
+      "S2245": [
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetFive.java",
+          "lines": [
+            82
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetSix.java",
+          "lines": [
+            88
+          ]
+        }
+      ],
+      "S2755": [
+        {
+          "fileId": "SecurityShepherd:src/main/java/utils/XmlDocumentBuilder.java",
+          "lines": [
+            39
+          ]
+        }
+      ],
+      "S3330": [
+        {
+          "fileId": "SecurityShepherd:SecurityShepherd:src/main/java/servlets/ACS.java",
+          "lines": [
+            260
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/Login.java",
+          "lines": [
+            99
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/MobileLogin.java",
+          "lines": [
+            93
+          ]
+        }
+      ],
+      "S3649": [
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/ModuleServletTemplate.java",
+          "lines": [
+            157
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement6SecretQuestion.java",
+          "lines": [
+            232
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection1.java",
+          "lines": [
+            91
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection3.java",
+          "lines": [
+            94
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection4.java",
+          "lines": [
+            97
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection5CouponCheck.java",
+          "lines": [
+            85
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection5VipCheck.java",
+          "lines": [
+            85
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection6.java",
+          "lines": [
+            91
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection7.java",
+          "lines": [
+            88
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjectionEmail.java",
+          "lines": [
+            91
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjectionEscaping.java",
+          "lines": [
+            88
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjectionStoredProcedure.java",
+          "lines": [
+            82
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/UrlAccess3UserList.java",
+          "lines": [
+            100
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/SqlInjectionLesson.java",
+          "lines": [
+            136
+          ]
+        }
+      ],
+      "S5131": [
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeFive.java",
+          "lines": [
+            113
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeFour.java",
+          "lines": [
+            123
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeOne.java",
+          "lines": [
+            110
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeSix.java",
+          "lines": [
+            113
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeThree.java",
+          "lines": [
+            110
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeTwo.java",
+          "lines": [
+            112
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/XssLesson.java",
+          "lines": [
+            107
+          ]
+        }
+      ],
+      "S5145": [
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Getter.java",
+          "lines": [
+            76
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Getter.java",
+          "lines": [
+            1891
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Setter.java",
+          "lines": [
+            462
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Setter.java",
+          "lines": [
+            587
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Setter.java",
+          "lines": [
+            617
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Setter.java",
+          "lines": [
+            1023
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Setter.java",
+          "lines": [
+            1024
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Setter.java",
+          "lines": [
+            1027
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Setter.java",
+          "lines": [
+            1177
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/dbProcs/Setter.java",
+          "lines": [
+            1547
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/MobileLogin.java",
+          "lines": [
+            66
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/Register.java",
+          "lines": [
+            86
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/Register.java",
+          "lines": [
+            92
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/Register.java",
+          "lines": [
+            94
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/Register.java",
+          "lines": [
+            156
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/config/ChangeCoreDatabase.java",
+          "lines": [
+            72
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/config/ChangeCoreDatabase.java",
+          "lines": [
+            75
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/config/EnableScoreboard.java",
+          "lines": [
+            71
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/EnableModuleBlock.java",
+          "lines": [
+            72
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/EnableModuleBlock.java",
+          "lines": [
+            83
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/GetFeedback.java",
+          "lines": [
+            65
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/GetJsonProgress.java",
+          "lines": [
+            68
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/GetProgress.java",
+          "lines": [
+            65
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/OpenAllModules.java",
+          "lines": [
+            49
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/OpenOrCloseByCategory.java",
+          "lines": [
+            60
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/OpenWebModules.java",
+          "lines": [
+            53
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/SetModuleStatus.java",
+          "lines": [
+            50
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/moduleManagement/SetModuleStatus.java",
+          "lines": [
+            62
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/AddPlayer.java",
+          "lines": [
+            85
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/AddPlayer.java",
+          "lines": [
+            87
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/AddPlayer.java",
+          "lines": [
+            93
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/AddPlayer.java",
+          "lines": [
+            96
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/AssignPlayers.java",
+          "lines": [
+            78
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/AssignPlayers.java",
+          "lines": [
+            81
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/AssignPlayers.java",
+          "lines": [
+            102
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/ChangeUserPassword.java",
+          "lines": [
+            69
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/ChangeUserPassword.java",
+          "lines": [
+            71
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/CreateClass.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/CreateClass.java",
+          "lines": [
+            81
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/CreateNewAdmin.java",
+          "lines": [
+            83
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/CreateNewAdmin.java",
+          "lines": [
+            89
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/CreateNewAdmin.java",
+          "lines": [
+            92
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/DeletePlayers.java",
+          "lines": [
+            75
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/DeletePlayers.java",
+          "lines": [
+            80
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/DowngradeAdmin.java",
+          "lines": [
+            74
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/GetPlayersByClass.java",
+          "lines": [
+            77
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/GiveTakePoints.java",
+          "lines": [
+            67
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/GiveTakePoints.java",
+          "lines": [
+            69
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/GiveTakePoints.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/SetDefaultClass.java",
+          "lines": [
+            78
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/SuspendUser.java",
+          "lines": [
+            68
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/SuspendUser.java",
+          "lines": [
+            70
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/UnSuspendUser.java",
+          "lines": [
+            68
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/admin/userManagement/UpgradePlayer.java",
+          "lines": [
+            77
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/FeedbackSubmit.java",
+          "lines": [
+            87
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/FeedbackSubmit.java",
+          "lines": [
+            91
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/FeedbackSubmit.java",
+          "lines": [
+            102
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/FeedbackSubmit.java",
+          "lines": [
+            129
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/GetCheat.java",
+          "lines": [
+            74
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/GetModule.java",
+          "lines": [
+            104
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/ModuleServletTemplate.java",
+          "lines": [
+            85
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/SolutionSubmit.java",
+          "lines": [
+            84
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/SolutionSubmit.java",
+          "lines": [
+            87
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/SolutionSubmit.java",
+          "lines": [
+            124
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/BrokenCrypto3.java",
+          "lines": [
+            72
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/BrokenCrypto4.java",
+          "lines": [
+            84
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/BrokenCryptoHomeMade.java",
+          "lines": [
+            376
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeFive.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeFour.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeJSON.java",
+          "lines": [
+            81
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeOne.java",
+          "lines": [
+            77
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeSeven.java",
+          "lines": [
+            77
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeSevenGetToken.java",
+          "lines": [
+            95
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeSix.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeSixGetToken.java",
+          "lines": [
+            90
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetFive.java",
+          "lines": [
+            93
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetFive.java",
+          "lines": [
+            96
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetFour.java",
+          "lines": [
+            100
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetFour.java",
+          "lines": [
+            102
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetOne.java",
+          "lines": [
+            73
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetSeven.java",
+          "lines": [
+            95
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetSeven.java",
+          "lines": [
+            97
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetSix.java",
+          "lines": [
+            101
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetSix.java",
+          "lines": [
+            104
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetThree.java",
+          "lines": [
+            73
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTargetTwo.java",
+          "lines": [
+            73
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeThree.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeTwo.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObject1.java",
+          "lines": [
+            77
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObject2.java",
+          "lines": [
+            77
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObjectBankCurrentBalance.java",
+          "lines": [
+            71
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObjectBankLogin.java",
+          "lines": [
+            80
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObjectBankLogin.java",
+          "lines": [
+            82
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObjectBankRegistration.java",
+          "lines": [
+            71
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObjectBankRegistration.java",
+          "lines": [
+            73
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObjectBankTransfer.java",
+          "lines": [
+            77
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObjectBankTransfer.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/DirectObjectBankTransfer.java",
+          "lines": [
+            81
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/NoSqlInjection1.java",
+          "lines": [
+            114
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement2.java",
+          "lines": [
+            96
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement2.java",
+          "lines": [
+            97
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement2ChangePassword.java",
+          "lines": [
+            88
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement3.java",
+          "lines": [
+            98
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement3.java",
+          "lines": [
+            99
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement3ChangePassword.java",
+          "lines": [
+            113
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement3ChangePassword.java",
+          "lines": [
+            122
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement3ChangePassword.java",
+          "lines": [
+            139
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement4.java",
+          "lines": [
+            129
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement4.java",
+          "lines": [
+            130
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5.java",
+          "lines": [
+            93
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5.java",
+          "lines": [
+            94
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5ChangePassword.java",
+          "lines": [
+            101
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5ChangePassword.java",
+          "lines": [
+            102
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5ChangePassword.java",
+          "lines": [
+            103
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5ChangePassword.java",
+          "lines": [
+            116
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5ChangePassword.java",
+          "lines": [
+            140
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5ChangePassword.java",
+          "lines": [
+            141
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5ChangePassword.java",
+          "lines": [
+            161
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement5SetToken.java",
+          "lines": [
+            90
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement6.java",
+          "lines": [
+            113
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement6.java",
+          "lines": [
+            114
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement6SecretQuestion.java",
+          "lines": [
+            88
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement6SecretQuestion.java",
+          "lines": [
+            91
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement6SecretQuestion.java",
+          "lines": [
+            210
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement7.java",
+          "lines": [
+            112
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement7.java",
+          "lines": [
+            113
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement7SecretQuestion.java",
+          "lines": [
+            100
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement7SecretQuestion.java",
+          "lines": [
+            103
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement8.java",
+          "lines": [
+            133
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement8.java",
+          "lines": [
+            134
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SessionManagement8.java",
+          "lines": [
+            135
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection1.java",
+          "lines": [
+            82
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection3.java",
+          "lines": [
+            83
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection4.java",
+          "lines": [
+            82,
+            84,
+            86,
+            88
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection5.java",
+          "lines": [
+            82
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection5CouponCheck.java",
+          "lines": [
+            70
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection5VipCheck.java",
+          "lines": [
+            70
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection6.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjection7.java",
+          "lines": [
+            75
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjectionEmail.java",
+          "lines": [
+            80
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjectionEmail.java",
+          "lines": [
+            82
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjectionEscaping.java",
+          "lines": [
+            78
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/SqlInjectionStoredProcedure.java",
+          "lines": [
+            74
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/UrlAccess3.java",
+          "lines": [
+            134
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/UrlAccess3.java",
+          "lines": [
+            135
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeFive.java",
+          "lines": [
+            81
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeFour.java",
+          "lines": [
+            81
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeOne.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeSix.java",
+          "lines": [
+            81
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeThree.java",
+          "lines": [
+            79
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/XssChallengeTwo.java",
+          "lines": [
+            80
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/CsrfLesson.java",
+          "lines": [
+            84
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/CsrfLesson.java",
+          "lines": [
+            106
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/DirectObjectLesson.java",
+          "lines": [
+            74
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/PoorValidationLesson.java",
+          "lines": [
+            74
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/SecurityMisconfigLesson.java",
+          "lines": [
+            70
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/SecurityMisconfigLesson.java",
+          "lines": [
+            72
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/SqlInjectionLesson.java",
+          "lines": [
+            76
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/UnvalidatedForwardsLesson.java",
+          "lines": [
+            86
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/UnvalidatedForwardsLesson.java",
+          "lines": [
+            151
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/XssLesson.java",
+          "lines": [
+            78
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/lesson/XssLesson.java",
+          "lines": [
+            96
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/utils/FindXSS.java",
+          "lines": [
+            358
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/utils/Validate.java",
+          "lines": [
+            200
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/utils/Validate.java",
+          "lines": [
+            327
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/utils/Validate.java",
+          "lines": [
+            373
+          ]
+        },
+        {
+          "fileId": "SecurityShepherd:src/main/java/utils/Validate.java",
+          "lines": [
+            507
+          ]
+        }
+      ],
+      "S5147": [
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/NoSqlInjection1.java",
+          "lines": [
+            116
+          ]
+        }
+      ],
+      "integer-overflow": [
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/PoorValidation2.java",
+          "lines": [
+            91
+          ]
+        }
+      ],
+      "sql-like-injection": [
+        {
+          "fileId": "SecurityShepherd:src/main/java/servlets/module/challenge/CsrfChallengeSevenGetToken.java",
+          "lines": [
+            89
+          ]
+        }
+      ]
+    }
+  }
