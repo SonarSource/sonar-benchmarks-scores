@@ -1,0 +1,5720 @@
+{
+  "benchmark": "juliet-suite-csharp-web",
+  "version": "1.3",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "csharpsquid:S1313": [
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_01.cs",
+        "lines": [
+          181,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_02.cs",
+        "lines": [
+          261,
+          351,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_03.cs",
+        "lines": [
+          261,
+          351,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_04.cs",
+        "lines": [
+          268,
+          358,
+          52
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_05.cs",
+        "lines": [
+          267,
+          357,
+          51
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_06.cs",
+        "lines": [
+          266,
+          356,
+          50
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_07.cs",
+        "lines": [
+          266,
+          356,
+          50
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_08.cs",
+        "lines": [
+          274,
+          364,
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_09.cs",
+        "lines": [
+          261,
+          351,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_10.cs",
+        "lines": [
+          261,
+          351,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_11.cs",
+        "lines": [
+          261,
+          351,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_12.cs",
+        "lines": [
+          277,
+          317,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_13.cs",
+        "lines": [
+          261,
+          351,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_14.cs",
+        "lines": [
+          261,
+          351,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_15.cs",
+        "lines": [
+          283,
+          375,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_16.cs",
+        "lines": [
+          193,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_17.cs",
+        "lines": [
+          185,
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_21.cs",
+        "lines": [
+          150,
+          237,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_22a.cs",
+        "lines": [
+          103,
+          148,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_31.cs",
+        "lines": [
+          197,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_41.cs",
+        "lines": [
+          225,
+          87
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_42.cs",
+        "lines": [
+          187,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_45.cs",
+        "lines": [
+          234,
+          92
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_51a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_52a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_53a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_54a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_61b.cs",
+        "lines": [
+          43,
+          98
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_66a.cs",
+        "lines": [
+          107,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_67a.cs",
+        "lines": [
+          112,
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_68a.cs",
+        "lines": [
+          102,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_71a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_72a.cs",
+        "lines": [
+          112,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_73a.cs",
+        "lines": [
+          112,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_74a.cs",
+        "lines": [
+          112,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_75a.cs",
+        "lines": [
+          111,
+          170,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_81a.cs",
+        "lines": [
+          105,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_01.cs",
+        "lines": [
+          153,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_02.cs",
+        "lines": [
+          219,
+          309,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_03.cs",
+        "lines": [
+          219,
+          309,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_04.cs",
+        "lines": [
+          226,
+          316,
+          52
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_05.cs",
+        "lines": [
+          225,
+          315,
+          51
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_06.cs",
+        "lines": [
+          224,
+          314,
+          50
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_07.cs",
+        "lines": [
+          224,
+          314,
+          50
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_08.cs",
+        "lines": [
+          232,
+          322,
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_09.cs",
+        "lines": [
+          219,
+          309,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_10.cs",
+        "lines": [
+          219,
+          309,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_11.cs",
+        "lines": [
+          219,
+          309,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_12.cs",
+        "lines": [
+          235,
+          275,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_13.cs",
+        "lines": [
+          219,
+          309,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_14.cs",
+        "lines": [
+          219,
+          309,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_15.cs",
+        "lines": [
+          241,
+          333,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_16.cs",
+        "lines": [
+          165,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_17.cs",
+        "lines": [
+          157,
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_21.cs",
+        "lines": [
+          136,
+          223,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_22a.cs",
+        "lines": [
+          103,
+          148,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_31.cs",
+        "lines": [
+          169,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_41.cs",
+        "lines": [
+          197,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_42.cs",
+        "lines": [
+          159,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_45.cs",
+        "lines": [
+          206,
+          78
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_51a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_52a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_53a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_54a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_61b.cs",
+        "lines": [
+          43,
+          98
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_66a.cs",
+        "lines": [
+          107,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_67a.cs",
+        "lines": [
+          112,
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_68a.cs",
+        "lines": [
+          102,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_71a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_72a.cs",
+        "lines": [
+          112,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_73a.cs",
+        "lines": [
+          112,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_74a.cs",
+        "lines": [
+          112,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_75a.cs",
+        "lines": [
+          111,
+          170,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_81a.cs",
+        "lines": [
+          105,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_01.cs",
+        "lines": [
+          143,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_02.cs",
+        "lines": [
+          204,
+          288,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_03.cs",
+        "lines": [
+          204,
+          288,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_04.cs",
+        "lines": [
+          211,
+          295,
+          52
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_05.cs",
+        "lines": [
+          210,
+          294,
+          51
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_06.cs",
+        "lines": [
+          209,
+          293,
+          50
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_07.cs",
+        "lines": [
+          209,
+          293,
+          50
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_08.cs",
+        "lines": [
+          217,
+          301,
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_09.cs",
+        "lines": [
+          204,
+          288,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_10.cs",
+        "lines": [
+          204,
+          288,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_11.cs",
+        "lines": [
+          204,
+          288,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_12.cs",
+        "lines": [
+          214,
+          254,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_13.cs",
+        "lines": [
+          204,
+          288,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_14.cs",
+        "lines": [
+          204,
+          288,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_15.cs",
+        "lines": [
+          226,
+          312,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_16.cs",
+        "lines": [
+          155,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_17.cs",
+        "lines": [
+          147,
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_21.cs",
+        "lines": [
+          131,
+          212,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_22a.cs",
+        "lines": [
+          103,
+          148,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_31.cs",
+        "lines": [
+          159,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_41.cs",
+        "lines": [
+          181,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_42.cs",
+        "lines": [
+          149,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_45.cs",
+        "lines": [
+          190,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_51a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_52a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_53a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_54a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_61b.cs",
+        "lines": [
+          43,
+          98
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_66a.cs",
+        "lines": [
+          107,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_67a.cs",
+        "lines": [
+          112,
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_68a.cs",
+        "lines": [
+          102,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_71a.cs",
+        "lines": [
+          103,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_72a.cs",
+        "lines": [
+          112,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_73a.cs",
+        "lines": [
+          112,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_74a.cs",
+        "lines": [
+          112,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_75a.cs",
+        "lines": [
+          111,
+          170,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_81a.cs",
+        "lines": [
+          105,
+          43
+        ]
+      }
+    ],
+    "csharpsquid:S2077": [
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_01.cs",
+        "lines": [
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_02.cs",
+        "lines": [
+          124,
+          170,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_03.cs",
+        "lines": [
+          124,
+          170,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_04.cs",
+        "lines": [
+          131,
+          177,
+          84
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_05.cs",
+        "lines": [
+          130,
+          176,
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_06.cs",
+        "lines": [
+          129,
+          175,
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_07.cs",
+        "lines": [
+          129,
+          175,
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_08.cs",
+        "lines": [
+          137,
+          183,
+          90
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_09.cs",
+        "lines": [
+          124,
+          170,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_10.cs",
+        "lines": [
+          124,
+          170,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_11.cs",
+        "lines": [
+          124,
+          170,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_12.cs",
+        "lines": [
+          156,
+          185,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_13.cs",
+        "lines": [
+          124,
+          170,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_14.cs",
+        "lines": [
+          124,
+          170,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_15.cs",
+        "lines": [
+          133,
+          186,
+          79
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_16.cs",
+        "lines": [
+          115,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_17.cs",
+        "lines": [
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_21.cs",
+        "lines": [
+          269,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_22b.cs",
+        "lines": [
+          173,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_31.cs",
+        "lines": [
+          120,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_41.cs",
+        "lines": [
+          108,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_42.cs",
+        "lines": [
+          113,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_45.cs",
+        "lines": [
+          115,
+          49
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_51b.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_52c.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_53d.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_54e.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_61a.cs",
+        "lines": [
+          42,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_66b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_67b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_68b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_71b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_72b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_73b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_74b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_75b.cs",
+        "lines": [
+          102,
+          54
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_81_bad.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_81_goodG2B.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_01.cs",
+        "lines": [
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_02.cs",
+        "lines": [
+          118,
+          159,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_03.cs",
+        "lines": [
+          118,
+          159,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_04.cs",
+        "lines": [
+          125,
+          166,
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_05.cs",
+        "lines": [
+          124,
+          165,
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_06.cs",
+        "lines": [
+          123,
+          164,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_07.cs",
+        "lines": [
+          123,
+          164,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_08.cs",
+        "lines": [
+          131,
+          172,
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_09.cs",
+        "lines": [
+          118,
+          159,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_10.cs",
+        "lines": [
+          118,
+          159,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_11.cs",
+        "lines": [
+          118,
+          159,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_12.cs",
+        "lines": [
+          144,
+          168,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_13.cs",
+        "lines": [
+          118,
+          159,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_14.cs",
+        "lines": [
+          118,
+          159,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_15.cs",
+        "lines": [
+          127,
+          175,
+          78
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_16.cs",
+        "lines": [
+          109,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_17.cs",
+        "lines": [
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_21.cs",
+        "lines": [
+          251,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_22b.cs",
+        "lines": [
+          155,
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_31.cs",
+        "lines": [
+          114,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_41.cs",
+        "lines": [
+          102,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_42.cs",
+        "lines": [
+          107,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_45.cs",
+        "lines": [
+          109,
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_51b.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_52c.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_53d.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_54e.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_61a.cs",
+        "lines": [
+          41,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_66b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_67b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_68b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_71b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_72b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_73b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_74b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_75b.cs",
+        "lines": [
+          53,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_81_bad.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_81_goodG2B.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_01.cs",
+        "lines": [
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_02.cs",
+        "lines": [
+          128,
+          174,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_03.cs",
+        "lines": [
+          128,
+          174,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_04.cs",
+        "lines": [
+          135,
+          181,
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_05.cs",
+        "lines": [
+          134,
+          180,
+          87
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_06.cs",
+        "lines": [
+          133,
+          179,
+          86
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_07.cs",
+        "lines": [
+          133,
+          179,
+          86
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_08.cs",
+        "lines": [
+          141,
+          187,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_09.cs",
+        "lines": [
+          128,
+          174,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_10.cs",
+        "lines": [
+          128,
+          174,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_11.cs",
+        "lines": [
+          128,
+          174,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_12.cs",
+        "lines": [
+          160,
+          189,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_13.cs",
+        "lines": [
+          128,
+          174,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_14.cs",
+        "lines": [
+          128,
+          174,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_15.cs",
+        "lines": [
+          137,
+          190,
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_16.cs",
+        "lines": [
+          119,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_17.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_21.cs",
+        "lines": [
+          285,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_22b.cs",
+        "lines": [
+          173,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_31.cs",
+        "lines": [
+          124,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_41.cs",
+        "lines": [
+          112,
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_42.cs",
+        "lines": [
+          117,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_45.cs",
+        "lines": [
+          119,
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_51b.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_52c.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_53d.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_54e.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_61a.cs",
+        "lines": [
+          42,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_66b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_67b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_68b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_71b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_72b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_73b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_74b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_75b.cs",
+        "lines": [
+          102,
+          54
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_81_bad.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_81_goodG2B.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_01.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_02.cs",
+        "lines": [
+          122,
+          163,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_03.cs",
+        "lines": [
+          122,
+          163,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_04.cs",
+        "lines": [
+          129,
+          170,
+          87
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_05.cs",
+        "lines": [
+          128,
+          169,
+          86
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_06.cs",
+        "lines": [
+          127,
+          168,
+          85
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_07.cs",
+        "lines": [
+          127,
+          168,
+          85
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_08.cs",
+        "lines": [
+          135,
+          176,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_09.cs",
+        "lines": [
+          122,
+          163,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_10.cs",
+        "lines": [
+          122,
+          163,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_11.cs",
+        "lines": [
+          122,
+          163,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_12.cs",
+        "lines": [
+          148,
+          172,
+          79
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_13.cs",
+        "lines": [
+          122,
+          163,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_14.cs",
+        "lines": [
+          122,
+          163,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_15.cs",
+        "lines": [
+          131,
+          179,
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_16.cs",
+        "lines": [
+          113,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_17.cs",
+        "lines": [
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_21.cs",
+        "lines": [
+          267,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_22b.cs",
+        "lines": [
+          155,
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_31.cs",
+        "lines": [
+          118,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_41.cs",
+        "lines": [
+          106,
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_42.cs",
+        "lines": [
+          111,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_45.cs",
+        "lines": [
+          113,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_51b.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_52c.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_53d.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_54e.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_61a.cs",
+        "lines": [
+          41,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_66b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_67b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_68b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_71b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_72b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_73b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_74b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_75b.cs",
+        "lines": [
+          53,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_81_bad.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_81_goodG2B.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_01.cs",
+        "lines": [
+          62
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_02.cs",
+        "lines": [
+          120,
+          166,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_03.cs",
+        "lines": [
+          120,
+          166,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_04.cs",
+        "lines": [
+          127,
+          173,
+          80
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_05.cs",
+        "lines": [
+          126,
+          172,
+          79
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_06.cs",
+        "lines": [
+          125,
+          171,
+          78
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_07.cs",
+        "lines": [
+          125,
+          171,
+          78
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_08.cs",
+        "lines": [
+          133,
+          179,
+          86
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_09.cs",
+        "lines": [
+          120,
+          166,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_10.cs",
+        "lines": [
+          120,
+          166,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_11.cs",
+        "lines": [
+          120,
+          166,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_12.cs",
+        "lines": [
+          152,
+          181,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_13.cs",
+        "lines": [
+          120,
+          166,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_14.cs",
+        "lines": [
+          120,
+          166,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_15.cs",
+        "lines": [
+          129,
+          182,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_16.cs",
+        "lines": [
+          111,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_17.cs",
+        "lines": [
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_21.cs",
+        "lines": [
+          259,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_22b.cs",
+        "lines": [
+          173,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_31.cs",
+        "lines": [
+          116,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_41.cs",
+        "lines": [
+          104,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_42.cs",
+        "lines": [
+          109,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_45.cs",
+        "lines": [
+          111,
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_51b.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_52c.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_53d.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_54e.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_61a.cs",
+        "lines": [
+          42,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_66b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_67b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_68b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_71b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_72b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_73b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_74b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_75b.cs",
+        "lines": [
+          102,
+          54
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_81_bad.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_81_goodG2B.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_01.cs",
+        "lines": [
+          61
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_02.cs",
+        "lines": [
+          114,
+          155,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_03.cs",
+        "lines": [
+          114,
+          155,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_04.cs",
+        "lines": [
+          121,
+          162,
+          79
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_05.cs",
+        "lines": [
+          120,
+          161,
+          78
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_06.cs",
+        "lines": [
+          119,
+          160,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_07.cs",
+        "lines": [
+          119,
+          160,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_08.cs",
+        "lines": [
+          127,
+          168,
+          85
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_09.cs",
+        "lines": [
+          114,
+          155,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_10.cs",
+        "lines": [
+          114,
+          155,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_11.cs",
+        "lines": [
+          114,
+          155,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_12.cs",
+        "lines": [
+          140,
+          164,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_13.cs",
+        "lines": [
+          114,
+          155,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_14.cs",
+        "lines": [
+          114,
+          155,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_15.cs",
+        "lines": [
+          123,
+          171,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_16.cs",
+        "lines": [
+          105,
+          67
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_17.cs",
+        "lines": [
+          67
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_21.cs",
+        "lines": [
+          241,
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_22b.cs",
+        "lines": [
+          155,
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_31.cs",
+        "lines": [
+          110,
+          67
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_41.cs",
+        "lines": [
+          42,
+          98
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_42.cs",
+        "lines": [
+          103,
+          67
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_45.cs",
+        "lines": [
+          105,
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_51b.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_52c.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_53d.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_54e.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_61a.cs",
+        "lines": [
+          41,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_66b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_67b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_68b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_71b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_72b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_73b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_74b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_75b.cs",
+        "lines": [
+          53,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_81_bad.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_81_goodG2B.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_01.cs",
+        "lines": [
+          53
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_02.cs",
+        "lines": [
+          111,
+          157,
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_03.cs",
+        "lines": [
+          111,
+          157,
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_04.cs",
+        "lines": [
+          118,
+          164,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_05.cs",
+        "lines": [
+          117,
+          163,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_06.cs",
+        "lines": [
+          116,
+          162,
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_07.cs",
+        "lines": [
+          116,
+          162,
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_08.cs",
+        "lines": [
+          124,
+          170,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_09.cs",
+        "lines": [
+          111,
+          157,
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_10.cs",
+        "lines": [
+          111,
+          157,
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_11.cs",
+        "lines": [
+          111,
+          157,
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_12.cs",
+        "lines": [
+          143,
+          172,
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_13.cs",
+        "lines": [
+          111,
+          157,
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_14.cs",
+        "lines": [
+          111,
+          157,
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_15.cs",
+        "lines": [
+          120,
+          173,
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_16.cs",
+        "lines": [
+          102,
+          59
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_17.cs",
+        "lines": [
+          59
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_21.cs",
+        "lines": [
+          234,
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_22b.cs",
+        "lines": [
+          173,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_31.cs",
+        "lines": [
+          107,
+          59
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_41.cs",
+        "lines": [
+          42,
+          95
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_42.cs",
+        "lines": [
+          100,
+          59
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_45.cs",
+        "lines": [
+          102,
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_51b.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_52c.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_53d.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_54e.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_61a.cs",
+        "lines": [
+          42,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_66b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_67b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_68b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_71b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_72b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_73b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_74b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_75b.cs",
+        "lines": [
+          54,
+          102
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_81_bad.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_81_goodG2B.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_01.cs",
+        "lines": [
+          52
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_02.cs",
+        "lines": [
+          105,
+          146,
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_03.cs",
+        "lines": [
+          105,
+          146,
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_04.cs",
+        "lines": [
+          112,
+          153,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_05.cs",
+        "lines": [
+          111,
+          152,
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_06.cs",
+        "lines": [
+          110,
+          151,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_07.cs",
+        "lines": [
+          110,
+          151,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_08.cs",
+        "lines": [
+          118,
+          159,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_09.cs",
+        "lines": [
+          105,
+          146,
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_10.cs",
+        "lines": [
+          105,
+          146,
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_11.cs",
+        "lines": [
+          105,
+          146,
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_12.cs",
+        "lines": [
+          131,
+          155,
+          62
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_13.cs",
+        "lines": [
+          105,
+          146,
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_14.cs",
+        "lines": [
+          105,
+          146,
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_15.cs",
+        "lines": [
+          114,
+          162,
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_16.cs",
+        "lines": [
+          58,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_17.cs",
+        "lines": [
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_21.cs",
+        "lines": [
+          216,
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_22b.cs",
+        "lines": [
+          155,
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_31.cs",
+        "lines": [
+          101,
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_41.cs",
+        "lines": [
+          41,
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_42.cs",
+        "lines": [
+          58,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_45.cs",
+        "lines": [
+          46,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_51b.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_52c.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_53d.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_54e.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_61a.cs",
+        "lines": [
+          41,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_66b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_67b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_68b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_71b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_72b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_73b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_74b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_75b.cs",
+        "lines": [
+          53,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_81_bad.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_81_goodG2B.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_01.cs",
+        "lines": [
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_02.cs",
+        "lines": [
+          141,
+          187,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_03.cs",
+        "lines": [
+          141,
+          187,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_04.cs",
+        "lines": [
+          101,
+          148,
+          194
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_05.cs",
+        "lines": [
+          100,
+          147,
+          193
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_06.cs",
+        "lines": [
+          146,
+          192,
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_07.cs",
+        "lines": [
+          146,
+          192,
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_08.cs",
+        "lines": [
+          107,
+          154,
+          200
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_09.cs",
+        "lines": [
+          141,
+          187,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_10.cs",
+        "lines": [
+          141,
+          187,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_11.cs",
+        "lines": [
+          141,
+          187,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_12.cs",
+        "lines": [
+          173,
+          202,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_13.cs",
+        "lines": [
+          141,
+          187,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_14.cs",
+        "lines": [
+          141,
+          187,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_15.cs",
+        "lines": [
+          150,
+          203,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_16.cs",
+        "lines": [
+          132,
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_17.cs",
+        "lines": [
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_21.cs",
+        "lines": [
+          318,
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_22b.cs",
+        "lines": [
+          173,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_31.cs",
+        "lines": [
+          137,
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_41.cs",
+        "lines": [
+          125,
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_42.cs",
+        "lines": [
+          130,
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_45.cs",
+        "lines": [
+          132,
+          50
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_51b.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_52c.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_53d.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_54e.cs",
+        "lines": [
+          41,
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_61a.cs",
+        "lines": [
+          42,
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_66b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_67b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_68b.cs",
+        "lines": [
+          42,
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_71b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_72b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_73b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_74b.cs",
+        "lines": [
+          43,
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_75b.cs",
+        "lines": [
+          102,
+          54
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_81_bad.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_81_goodG2B.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_01.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_02.cs",
+        "lines": [
+          135,
+          176,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_03.cs",
+        "lines": [
+          135,
+          176,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_04.cs",
+        "lines": [
+          100,
+          142,
+          183
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_05.cs",
+        "lines": [
+          141,
+          182,
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_06.cs",
+        "lines": [
+          140,
+          181,
+          98
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_07.cs",
+        "lines": [
+          140,
+          181,
+          98
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_08.cs",
+        "lines": [
+          106,
+          148,
+          189
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_09.cs",
+        "lines": [
+          135,
+          176,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_10.cs",
+        "lines": [
+          135,
+          176,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_11.cs",
+        "lines": [
+          135,
+          176,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_12.cs",
+        "lines": [
+          161,
+          185,
+          92
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_13.cs",
+        "lines": [
+          135,
+          176,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_14.cs",
+        "lines": [
+          135,
+          176,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_15.cs",
+        "lines": [
+          144,
+          192,
+          95
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_16.cs",
+        "lines": [
+          126,
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_17.cs",
+        "lines": [
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_21.cs",
+        "lines": [
+          300,
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_22b.cs",
+        "lines": [
+          155,
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_31.cs",
+        "lines": [
+          131,
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_41.cs",
+        "lines": [
+          119,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_42.cs",
+        "lines": [
+          124,
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_45.cs",
+        "lines": [
+          126,
+          49
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_51b.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_52c.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_53d.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_54e.cs",
+        "lines": [
+          40,
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_61a.cs",
+        "lines": [
+          41,
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_66b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_67b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_68b.cs",
+        "lines": [
+          41,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_71b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_72b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_73b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_74b.cs",
+        "lines": [
+          42,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_75b.cs",
+        "lines": [
+          53,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_81_bad.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_81_goodG2B.cs",
+        "lines": [
+          41
+        ]
+      }
+    ],
+    "roslyn.sonaranalyzer.security.cs:S3649": [
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_01.cs",
+        "lines": [
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_02.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_03.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_04.cs",
+        "lines": [
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_05.cs",
+        "lines": [
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_06.cs",
+        "lines": [
+          87
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_07.cs",
+        "lines": [
+          87
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_08.cs",
+        "lines": [
+          95
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_09.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_10.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_11.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_12.cs",
+        "lines": [
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_13.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_14.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_15.cs",
+        "lines": [
+          84
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_16.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_17.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_21.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_22b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_31.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_41.cs",
+        "lines": [
+          49
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_42.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_45.cs",
+        "lines": [
+          54
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_51b.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_52c.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_53d.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_54e.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_61a.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_66b.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_67b.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_71b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_72b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_73b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_74b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_75b.cs",
+        "lines": [
+          59,
+          121
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_81_bad.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_01.cs",
+        "lines": [
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_02.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_03.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_04.cs",
+        "lines": [
+          84
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_05.cs",
+        "lines": [
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_06.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_07.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_08.cs",
+        "lines": [
+          90
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_09.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_10.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_11.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_12.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_13.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_14.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_15.cs",
+        "lines": [
+          79
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_16.cs",
+        "lines": [
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_17.cs",
+        "lines": [
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_21.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_22b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_31.cs",
+        "lines": [
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_41.cs",
+        "lines": [
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_42.cs",
+        "lines": [
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_45.cs",
+        "lines": [
+          49
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_51b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_52c.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_53d.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_54e.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_61a.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_66b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_67b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_71b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_72b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_73b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_74b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_75b.cs",
+        "lines": [
+          54,
+          102
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_81_bad.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_01.cs",
+        "lines": [
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_02.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_03.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_04.cs",
+        "lines": [
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_05.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_06.cs",
+        "lines": [
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_07.cs",
+        "lines": [
+          81
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_08.cs",
+        "lines": [
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_09.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_10.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_11.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_12.cs",
+        "lines": [
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_13.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_14.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_15.cs",
+        "lines": [
+          78
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_16.cs",
+        "lines": [
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_17.cs",
+        "lines": [
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_21.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_22b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_31.cs",
+        "lines": [
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_41.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_42.cs",
+        "lines": [
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_45.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_51b.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_52c.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_53d.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_54e.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_61a.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_66b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_67b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_71b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_72b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_73b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_74b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_75b.cs",
+        "lines": [
+          53,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_81_bad.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_01.cs",
+        "lines": [
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_02.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_03.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_04.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_05.cs",
+        "lines": [
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_06.cs",
+        "lines": [
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_07.cs",
+        "lines": [
+          74
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_08.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_09.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_10.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_11.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_12.cs",
+        "lines": [
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_13.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_14.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_15.cs",
+        "lines": [
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_16.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_17.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_21.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_22b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_31.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_41.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_42.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_45.cs",
+        "lines": [
+          52
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_51b.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_52c.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_53d.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_54e.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_61a.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_66b.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_67b.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_68b.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_71b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_72b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_73b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_74b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_75b.cs",
+        "lines": [
+          59,
+          121
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_81_bad.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_01.cs",
+        "lines": [
+          53
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_02.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_03.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_04.cs",
+        "lines": [
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_05.cs",
+        "lines": [
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_06.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_07.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_08.cs",
+        "lines": [
+          77
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_09.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_10.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_11.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_12.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_13.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_14.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_15.cs",
+        "lines": [
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_16.cs",
+        "lines": [
+          59
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_17.cs",
+        "lines": [
+          59
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_21.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_22b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_31.cs",
+        "lines": [
+          59
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_41.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_42.cs",
+        "lines": [
+          59
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_45.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_51b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_52c.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_53d.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_54e.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_61a.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_66b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_67b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_68b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_71b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_72b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_73b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_74b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_75b.cs",
+        "lines": [
+          54,
+          102
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_81_bad.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_01.cs",
+        "lines": [
+          52
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_02.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_03.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_04.cs",
+        "lines": [
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_05.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_06.cs",
+        "lines": [
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_07.cs",
+        "lines": [
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_08.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_09.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_10.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_11.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_12.cs",
+        "lines": [
+          62
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_13.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_14.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_15.cs",
+        "lines": [
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_16.cs",
+        "lines": [
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_17.cs",
+        "lines": [
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_21.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_22b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_31.cs",
+        "lines": [
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_41.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_42.cs",
+        "lines": [
+          58
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_45.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_51b.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_52c.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_53d.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_54e.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_61a.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_66b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_67b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_68b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_71b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_72b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_73b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_74b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_75b.cs",
+        "lines": [
+          53,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_81_bad.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_01.cs",
+        "lines": [
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_02.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_03.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_04.cs",
+        "lines": [
+          106
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_05.cs",
+        "lines": [
+          105
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_06.cs",
+        "lines": [
+          104
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_07.cs",
+        "lines": [
+          104
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_08.cs",
+        "lines": [
+          112
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_09.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_10.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_11.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_12.cs",
+        "lines": [
+          98
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_13.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_14.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_15.cs",
+        "lines": [
+          101
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_16.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_17.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_21.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_22b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_31.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_41.cs",
+        "lines": [
+          50
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_42.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_45.cs",
+        "lines": [
+          55
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_51b.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_52c.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_53d.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_54e.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_61a.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_66b.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_67b.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_68b.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_71b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_72b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_73b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_74b.cs",
+        "lines": [
+          48
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_75b.cs",
+        "lines": [
+          59,
+          121
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_81_bad.cs",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_01.cs",
+        "lines": [
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_02.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_03.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_04.cs",
+        "lines": [
+          101
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_05.cs",
+        "lines": [
+          100
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_06.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_07.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_08.cs",
+        "lines": [
+          107
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_09.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_10.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_11.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_12.cs",
+        "lines": [
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_13.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_14.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_15.cs",
+        "lines": [
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_16.cs",
+        "lines": [
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_17.cs",
+        "lines": [
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_21.cs",
+        "lines": [
+          94
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_22b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_31.cs",
+        "lines": [
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_41.cs",
+        "lines": [
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_42.cs",
+        "lines": [
+          89
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_45.cs",
+        "lines": [
+          50
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_51b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_52c.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_53d.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_54e.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_61a.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_66b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_67b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_68b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_71b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_72b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_73b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_74b.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_75b.cs",
+        "lines": [
+          54,
+          102
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_81_bad.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_01.cs",
+        "lines": [
+          82
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_02.cs",
+        "lines": [
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_03.cs",
+        "lines": [
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_04.cs",
+        "lines": [
+          100
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_05.cs",
+        "lines": [
+          99
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_06.cs",
+        "lines": [
+          98
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_07.cs",
+        "lines": [
+          98
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_08.cs",
+        "lines": [
+          106
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_09.cs",
+        "lines": [
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_10.cs",
+        "lines": [
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_11.cs",
+        "lines": [
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_12.cs",
+        "lines": [
+          92
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_13.cs",
+        "lines": [
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_14.cs",
+        "lines": [
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_15.cs",
+        "lines": [
+          95
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_16.cs",
+        "lines": [
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_17.cs",
+        "lines": [
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_21.cs",
+        "lines": [
+          93
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_22b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_31.cs",
+        "lines": [
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_41.cs",
+        "lines": [
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_42.cs",
+        "lines": [
+          88
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_45.cs",
+        "lines": [
+          49
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_51b.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_52c.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_53d.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_54e.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_61a.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_66b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_67b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_68b.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_71b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_72b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_73b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_74b.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_75b.cs",
+        "lines": [
+          53,
+          96
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_81_bad.cs",
+        "lines": [
+          40
+        ]
+      }
+    ],
+    "csharpsquid:S5773": [
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_CommandText_75b.cs",
+        "lines": [
+          105,
+          165,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteNonQuery_75b.cs",
+        "lines": [
+          137,
+          43,
+          91
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Connect_tcp_ExecuteScalar_75b.cs",
+        "lines": [
+          127,
+          43,
+          86
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_CommandText_75b.cs",
+        "lines": [
+          105,
+          165,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteNonQuery_75b.cs",
+        "lines": [
+          137,
+          43,
+          91
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Database_ExecuteScalar_75b.cs",
+        "lines": [
+          127,
+          43,
+          86
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_CommandText_75b.cs",
+        "lines": [
+          105,
+          165,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteNonQuery_75b.cs",
+        "lines": [
+          137,
+          43,
+          91
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_File_ExecuteScalar_75b.cs",
+        "lines": [
+          127,
+          43,
+          86
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_CommandText_75b.cs",
+        "lines": [
+          105,
+          165,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteNonQuery_75b.cs",
+        "lines": [
+          137,
+          43,
+          91
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Get_Cookies_Web_ExecuteScalar_75b.cs",
+        "lines": [
+          127,
+          43,
+          86
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_CommandText_75b.cs",
+        "lines": [
+          105,
+          165,
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteNonQuery_75b.cs",
+        "lines": [
+          137,
+          43,
+          91
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_Listen_tcp_ExecuteScalar_75b.cs",
+        "lines": [
+          127,
+          43,
+          86
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE89_SQL_Injection_s01:testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Web_NetClient_CommandText_75b.cs",
+        "lines": [
+          105,
+          165,
+          43
+        ]
+      }
+    ]
+  }
+}

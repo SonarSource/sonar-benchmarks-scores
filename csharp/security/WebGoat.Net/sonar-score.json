@@ -1,0 +1,7 @@
+{
+    "name": "WebGoat.Net",
+    "lastUpdate":  "2023-11-09",
+    "numberOfTestCases": 104,
+    "truePositiveRate": 89.42,
+    "falseDiscoveryRate": 4.12
+}

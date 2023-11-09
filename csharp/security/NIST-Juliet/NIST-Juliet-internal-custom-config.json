@@ -1,0 +1,39 @@
+{
+  "common": {
+    "sources": [
+      {
+        "methodId": "System.Data.SqlClient.SqlDataReader.GetString",
+        "isMethodPrefix": true,
+        "excludedRules": [
+          "S6096"
+        ]
+      },
+      {
+        "methodId": "System.Environment.GetEnvironmentVariable",
+        "isMethodPrefix": true,
+        "excludedRules": [
+          "S6096"
+        ]
+      },
+      {
+        "methodId": "System.Net.WebClient.OpenRead(string)",
+        "excludedRules": [
+          "S6096"
+        ]
+      },
+      {
+        "methodId": "System.IO.StreamReader",
+        "excludedRules": [
+          "S6096"
+        ]
+      },
+      {
+        "methodId": "System.Console.ReadLine",
+        "isMethodPrefix": true,
+        "excludedRules": [
+          "S6096"
+        ]
+      }
+    ]
+  }
+}

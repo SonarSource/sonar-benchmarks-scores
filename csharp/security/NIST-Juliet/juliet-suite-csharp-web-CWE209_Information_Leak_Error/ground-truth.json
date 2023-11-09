@@ -1,0 +1,213 @@
+{
+  "benchmark": "juliet-suite-csharp-web",
+  "version": "1.3",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "error_information_leak": [
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_01.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_02.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_03.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_04.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_05.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_06.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_07.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_08.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_09.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_10.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_11.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_12.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_13.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_14.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_15.cs",
+        "lines": [
+          35
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_16.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_17.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_01.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_02.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_03.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_04.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_05.cs",
+        "lines": [
+          42
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_06.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_07.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_08.cs",
+        "lines": [
+          49
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_09.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_10.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_11.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_12.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_13.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_14.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_15.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_16.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE209_Information_Leak_Error:testcases/CWE209_Information_Leak_Error/CWE209_Information_Leak_Error__StackTrace_Web_17.cs",
+        "lines": [
+          36
+        ]
+      }
+    ]
+  }
+}

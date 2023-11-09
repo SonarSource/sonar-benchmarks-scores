@@ -1,0 +1,111 @@
+{
+  "benchmark": "juliet-suite-csharp-web",
+  "version": "1.3",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "csharpsquid:S2245": [
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_01.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_02.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_03.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_04.cs",
+        "lines": [
+          38
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_05.cs",
+        "lines": [
+          38
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_06.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_07.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_08.cs",
+        "lines": [
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_09.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_10.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_11.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_12.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_13.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_14.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_15.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_16.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE338_Weak_PRNG:testcases/CWE338_Weak_PRNG/CWE338_Weak_PRNG__random_17.cs",
+        "lines": [
+          32
+        ]
+      }
+    ]
+  }
+}

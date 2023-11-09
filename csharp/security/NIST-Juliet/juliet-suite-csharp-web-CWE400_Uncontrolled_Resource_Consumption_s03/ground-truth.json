@@ -1,0 +1,17 @@
+{
+  "benchmark": "juliet-suite-csharp-web",
+  "version": "1.3",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "csharpsquid:S5773": [
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s03:testcases/CWE400_Uncontrolled_Resource_Consumption/s03/CWE400_Uncontrolled_Resource_Consumption__sleep_ReadLine_75b.cs",
+        "lines": [
+          41,
+          65,
+          87
+        ]
+      }
+    ]
+  }
+}

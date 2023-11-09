@@ -1,0 +1,958 @@
+{
+  "benchmark": "juliet-suite-csharp-web",
+  "version": "1.3",
+  "language": "CSHARP",
+  "ignoredIssues": {
+    "csharpsquid:S2245": [
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcasesupport/TestCaseSupport/IO.cs",
+        "lines": [
+          101,
+          132,
+          139,
+          145
+        ],
+        "comment": "There is no context how this methods are called."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_01.cs",
+        "lines": [
+          32,
+          67
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_02.cs",
+        "lines": [
+          34,
+          113,
+          147
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_03.cs",
+        "lines": [
+          34,
+          113,
+          147
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_04.cs",
+        "lines": [
+          41,
+          120,
+          154
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_05.cs",
+        "lines": [
+          40,
+          119,
+          153
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_06.cs",
+        "lines": [
+          39,
+          118,
+          152
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_07.cs",
+        "lines": [
+          39,
+          118,
+          152
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_08.cs",
+        "lines": [
+          47,
+          126,
+          160
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_09.cs",
+        "lines": [
+          34,
+          113,
+          147
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_10.cs",
+        "lines": [
+          34,
+          113,
+          147
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_11.cs",
+        "lines": [
+          34,
+          113,
+          147
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_12.cs",
+        "lines": [
+          34,
+          108,
+          113
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_13.cs",
+        "lines": [
+          34,
+          113,
+          147
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_14.cs",
+        "lines": [
+          34,
+          113,
+          147
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_15.cs",
+        "lines": [
+          35,
+          135,
+          171
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_16.cs",
+        "lines": [
+          34,
+          79
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_17.cs",
+        "lines": [
+          36,
+          71
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_21.cs",
+        "lines": [
+          35,
+          70,
+          101
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_22a.cs",
+        "lines": [
+          35,
+          57,
+          67
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_31.cs",
+        "lines": [
+          34,
+          83
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_41.cs",
+        "lines": [
+          42,
+          90
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_42.cs",
+        "lines": [
+          32,
+          73
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_45.cs",
+        "lines": [
+          47,
+          99
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_51a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_52a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_53a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_54a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_61b.cs",
+        "lines": [
+          32,
+          52
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_66a.cs",
+        "lines": [
+          32,
+          61
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_67a.cs",
+        "lines": [
+          37,
+          66
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_68a.cs",
+        "lines": [
+          33,
+          56
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_71a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_72a.cs",
+        "lines": [
+          33,
+          66
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_73a.cs",
+        "lines": [
+          33,
+          66
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_74a.cs",
+        "lines": [
+          33,
+          66
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_75a.cs",
+        "lines": [
+          35,
+          66,
+          90
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_for_loop_81a.cs",
+        "lines": [
+          32,
+          59
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_01.cs",
+        "lines": [
+          34,
+          113
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_02.cs",
+        "lines": [
+          36,
+          181,
+          238
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_03.cs",
+        "lines": [
+          36,
+          181,
+          238
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_04.cs",
+        "lines": [
+          43,
+          188,
+          245
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_05.cs",
+        "lines": [
+          42,
+          187,
+          244
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_06.cs",
+        "lines": [
+          41,
+          186,
+          243
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_07.cs",
+        "lines": [
+          41,
+          186,
+          243
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_08.cs",
+        "lines": [
+          49,
+          194,
+          251
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_09.cs",
+        "lines": [
+          36,
+          181,
+          238
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_10.cs",
+        "lines": [
+          36,
+          181,
+          238
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_11.cs",
+        "lines": [
+          36,
+          181,
+          238
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_12.cs",
+        "lines": [
+          36,
+          199,
+          204
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_13.cs",
+        "lines": [
+          36,
+          181,
+          238
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_14.cs",
+        "lines": [
+          36,
+          181,
+          238
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_15.cs",
+        "lines": [
+          37,
+          203,
+          262
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_16.cs",
+        "lines": [
+          36,
+          125
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_17.cs",
+        "lines": [
+          38,
+          117
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_21.cs",
+        "lines": [
+          37,
+          94,
+          148
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_22a.cs",
+        "lines": [
+          35,
+          57,
+          67
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_31.cs",
+        "lines": [
+          36,
+          129
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_41.cs",
+        "lines": [
+          66,
+          159
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_42.cs",
+        "lines": [
+          34,
+          119
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_45.cs",
+        "lines": [
+          71,
+          168
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_51a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_52a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_53a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_54a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_61b.cs",
+        "lines": [
+          32,
+          52
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_66a.cs",
+        "lines": [
+          32,
+          61
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_67a.cs",
+        "lines": [
+          37,
+          66
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_68a.cs",
+        "lines": [
+          33,
+          56
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_71a.cs",
+        "lines": [
+          32,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_72a.cs",
+        "lines": [
+          33,
+          66
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_73a.cs",
+        "lines": [
+          33,
+          66
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_74a.cs",
+        "lines": [
+          33,
+          66
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_75a.cs",
+        "lines": [
+          35,
+          66,
+          90
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__Random_write_81a.cs",
+        "lines": [
+          32,
+          59
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_01.cs",
+        "lines": [
+          32,
+          59
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_02.cs",
+        "lines": [
+          34,
+          101,
+          131
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_03.cs",
+        "lines": [
+          34,
+          101,
+          131
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_04.cs",
+        "lines": [
+          41,
+          108,
+          138
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_05.cs",
+        "lines": [
+          40,
+          107,
+          137
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_06.cs",
+        "lines": [
+          39,
+          106,
+          136
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_07.cs",
+        "lines": [
+          39,
+          106,
+          136
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_08.cs",
+        "lines": [
+          47,
+          114,
+          144
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_09.cs",
+        "lines": [
+          34,
+          101,
+          131
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_10.cs",
+        "lines": [
+          34,
+          101,
+          131
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_11.cs",
+        "lines": [
+          34,
+          101,
+          131
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_12.cs",
+        "lines": [
+          34,
+          92,
+          97
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_13.cs",
+        "lines": [
+          34,
+          101,
+          131
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_14.cs",
+        "lines": [
+          34,
+          101,
+          131
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_15.cs",
+        "lines": [
+          35,
+          123,
+          155
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_16.cs",
+        "lines": [
+          34,
+          71
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_17.cs",
+        "lines": [
+          36,
+          63
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_21.cs",
+        "lines": [
+          35,
+          66,
+          93
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_22a.cs",
+        "lines": [
+          33,
+          55,
+          65
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_31.cs",
+        "lines": [
+          34,
+          75
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_41.cs",
+        "lines": [
+          38,
+          78
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_42.cs",
+        "lines": [
+          32,
+          65
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_45.cs",
+        "lines": [
+          43,
+          87
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_51a.cs",
+        "lines": [
+          30,
+          55
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_52a.cs",
+        "lines": [
+          30,
+          55
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_53a.cs",
+        "lines": [
+          30,
+          55
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_54a.cs",
+        "lines": [
+          30,
+          55
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_61b.cs",
+        "lines": [
+          30,
+          50
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_66a.cs",
+        "lines": [
+          30,
+          59
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_67a.cs",
+        "lines": [
+          35,
+          64
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_68a.cs",
+        "lines": [
+          31,
+          54
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_71a.cs",
+        "lines": [
+          30,
+          55
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_72a.cs",
+        "lines": [
+          31,
+          64
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_73a.cs",
+        "lines": [
+          31,
+          64
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_74a.cs",
+        "lines": [
+          31,
+          64
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_75a.cs",
+        "lines": [
+          33,
+          64,
+          88
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE400_Uncontrolled_Resource_Consumption_s02:testcases/CWE400_Uncontrolled_Resource_Consumption/s02/CWE400_Uncontrolled_Resource_Consumption__sleep_Random_81a.cs",
+        "lines": [
+          30,
+          57
+        ],
+        "comment": "The test case and our rule are unrelated."
+      }
+    ]
+  }
+}

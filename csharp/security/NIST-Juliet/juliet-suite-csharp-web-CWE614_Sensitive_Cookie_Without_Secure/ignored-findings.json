@@ -1,0 +1,19 @@
+{
+  "benchmark": "juliet-suite-csharp-web",
+  "version": "1.3",
+  "language": "CSHARP",
+  "ignoredIssues": {
+    "csharpsquid:S2245": [
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcasesupport/TestCaseSupport/IO.cs",
+        "lines": [
+          101,
+          132,
+          139,
+          145
+        ],
+        "comment": "There is no context how this methods are called."
+      }
+    ]
+  }
+}

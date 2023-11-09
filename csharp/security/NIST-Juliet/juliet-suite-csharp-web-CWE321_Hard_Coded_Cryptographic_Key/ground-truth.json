@@ -1,0 +1,240 @@
+{
+  "benchmark": "juliet-suite-csharp-web",
+  "version": "1.3",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "csharpsquid:S5773": [
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_75b.cs",
+        "lines": [
+          41,
+          88
+        ]
+      }
+    ],
+    "csharpsquid:S6437": [
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_01.cs",
+        "lines": [
+          35
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_02.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_03.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_04.cs",
+        "lines": [
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_05.cs",
+        "lines": [
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_06.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_07.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_08.cs",
+        "lines": [
+          51
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_09.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_10.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_11.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_12.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_13.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_14.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_15.cs",
+        "lines": [
+          38
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_16.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_17.cs",
+        "lines": [
+          35
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_21.cs",
+        "lines": [
+          72
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_22b.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_31.cs",
+        "lines": [
+          38
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_41.cs",
+        "lines": [
+          63
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_42.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_45.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_51a.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_52a.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_53a.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_54a.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_61b.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_66a.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_67a.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_68a.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_71a.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_72a.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_73a.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_74a.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_75a.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE321_Hard_Coded_Cryptographic_Key:testcases/CWE321_Hard_Coded_Cryptographic_Key/CWE321_Hard_Coded_Cryptographic_Key__basic_81a.cs",
+        "lines": [
+          32
+        ]
+      }
+    ]
+  }
+}

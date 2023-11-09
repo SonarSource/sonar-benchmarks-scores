@@ -1,0 +1,345 @@
+{
+  "benchmark": "FlowBlot",
+  "version": "738cc6495574b1b5c5f51acaa8e2a00864dc4252",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "roslyn.sonaranalyzer.security.cs:S5131": [
+      {
+        "fileId": "FlowBlot:Flows/Aggregates/Flow_00005.cs",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Aggregates/Flow_00049.cs",
+        "lines": [
+          19
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Aggregates/Flow_00050.cs",
+        "lines": [
+          19
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Aggregates/Flow_00054.cs",
+        "lines": [
+          19
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Context-Sensitivity/Flow_00009.cs",
+        "lines": [
+          18
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Exceptions/Flow_00037.cs",
+        "lines": [
+          18
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Exceptions/Flow_00038.cs",
+        "lines": [
+          18
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Field-Sensitivity/Flow_00003.cs",
+        "lines": [
+          16
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Flow-Sensitivity/Flow_00070.cs",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Flow-Sensitivity/Flow_00071.cs",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Getter-Setter/Flow_00019.cs",
+        "lines": [
+          17
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Inline-Instantiations/Flow_00063.cs",
+        "lines": [
+          21
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Inline-Instantiations/Flow_00064.cs",
+        "lines": [
+          19
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Lambda-Functions/Flow_00060.cs",
+        "lines": [
+          18
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Loops/Flow_00016.cs",
+        "lines": [
+          23
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Miscellaneous/Flow_00043.cs",
+        "lines": [
+          17
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Miscellaneous/Flow_00044.cs",
+        "lines": [
+          21
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Miscellaneous/Flow_00072.cs",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Miscellaneous/Flow_00074.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Miscellaneous/Flow_00078.cs",
+        "lines": [
+          21
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Miscellaneous/Flow_00080.cs",
+        "lines": [
+          17
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Miscellaneous/Flow_00081.cs",
+        "lines": [
+          18
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Multi-Source-Multi-Sink/Flow_00024.cs",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Multi-Source-Multi-Sink/Flow_00025.cs",
+        "lines": [
+          11
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Multi-Source-Multi-Sink/Flow_00026.cs",
+        "lines": [
+          12
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Nested-Calls/Flow_00018.cs",
+        "lines": [
+          15
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/PassByReference/Flow_00012.cs",
+        "lines": [
+          16
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/PassByReference/Flow_00013.cs",
+        "lines": [
+          17
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/PassByReference/Flow_00029.cs",
+        "lines": [
+          14
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/PassByReference/Flow_00030.cs",
+        "lines": [
+          15
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Path-Sensitivity/Flow_00007.cs",
+        "lines": [
+          15
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Path-Sensitivity/Flow_00008.cs",
+        "lines": [
+          16
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Path-Sensitivity/Flow_00014.cs",
+        "lines": [
+          27
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Path-Sensitivity/Flow_00015.cs",
+        "lines": [
+          27
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Path-Sensitivity/Flow_00027.cs",
+        "lines": [
+          25
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Points-To-Analysis/Flow_00032.cs",
+        "lines": [
+          17
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Points-To-Analysis/Flow_00033.cs",
+        "lines": [
+          25
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Points-To-Analysis/Flow_00045.cs",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Points-To-Analysis/Flow_00046.cs",
+        "lines": [
+          38
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Points-To-Analysis/Flow_00047.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Points-To-Analysis/Flow_00055.cs",
+        "lines": [
+          22
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Points-To-Analysis/Flow_00057.cs",
+        "lines": [
+          22
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Points-To-Analysis/Flow_00058.cs",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Points-To-Analysis/Flow_00065.cs",
+        "lines": [
+          24
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Polymorphism/Flow_00021.cs",
+        "lines": [
+          18
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Polymorphism/Flow_00022.cs",
+        "lines": [
+          21
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Polymorphism/Flow_00076.cs",
+        "lines": [
+          21
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Recursion/Flow_00017.cs",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Recursion/Flow_00035.cs",
+        "lines": [
+          17
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Simple/Flow_00001.cs",
+        "lines": [
+          12
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Simple/Flow_00002.cs",
+        "lines": [
+          10
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Simple/Flow_00011.cs",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Static-Variable/Flow_00031.cs",
+        "lines": [
+          16
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/String-Operations/Flow_00039.cs",
+        "lines": [
+          22
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/String-Operations/Flow_00041.cs",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "fileId": "FlowBlot:Flows/Unreachable Flow/Flow_00040.cs",
+        "lines": [
+          21
+        ]
+      }
+    ]
+  }
+}
