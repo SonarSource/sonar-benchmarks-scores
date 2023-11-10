@@ -1,0 +1,7 @@
+{
+    "name": "NIST-Juliet",
+    "lastUpdate":  "2023-11-09",
+    "numberOfTestCases": 16968,
+    "truePositiveRate": 87.36,
+    "falseDiscoveryRate": 4.51
+}

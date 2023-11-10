@@ -1,0 +1,111 @@
+{
+  "benchmark": "juliet-suite-csharp",
+  "version": "1.3",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "csharpsquid:S3361": [
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_01.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_02.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_03.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_04.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_05.cs",
+        "lines": [
+          40
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_06.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_07.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_08.cs",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_09.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_10.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_11.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_12.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_13.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_14.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_15.cs",
+        "lines": [
+          35
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_16.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE613_Insufficient_Session_Expiration:testcases/CWE613_Insufficient_Session_Expiration/CWE613_Insufficient_Session_Expiration__Web_17.cs",
+        "lines": [
+          34
+        ]
+      }
+    ]
+  }
+}

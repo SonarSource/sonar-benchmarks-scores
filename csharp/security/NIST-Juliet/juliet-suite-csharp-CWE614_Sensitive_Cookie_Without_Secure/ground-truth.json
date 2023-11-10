@@ -1,0 +1,248 @@
+{
+  "benchmark": "juliet-suite-csharp",
+  "version": "1.3",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "csharpsquid:S2092": [
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_01.cs",
+        "lines": [
+          28
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_02.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_03.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_04.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_05.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_06.cs",
+        "lines": [
+          35
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_07.cs",
+        "lines": [
+          35
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_08.cs",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_09.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_10.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_11.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_12.cs",
+        "lines": [
+          30,
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_13.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_14.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_15.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_16.cs",
+        "lines": [
+          30
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_17.cs",
+        "lines": [
+          30
+        ]
+      }
+    ],
+    "csharpsquid:S3330": [
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_01.cs",
+        "lines": [
+          28,
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_02.cs",
+        "lines": [
+          30,
+          50,
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_03.cs",
+        "lines": [
+          30,
+          50,
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_04.cs",
+        "lines": [
+          36,
+          56,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_05.cs",
+        "lines": [
+          36,
+          56,
+          71
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_06.cs",
+        "lines": [
+          35,
+          55,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_07.cs",
+        "lines": [
+          35,
+          55,
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_08.cs",
+        "lines": [
+          43,
+          63,
+          78
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_09.cs",
+        "lines": [
+          30,
+          50,
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_10.cs",
+        "lines": [
+          30,
+          50,
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_11.cs",
+        "lines": [
+          30,
+          50,
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_12.cs",
+        "lines": [
+          30,
+          39,
+          55,
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_13.cs",
+        "lines": [
+          30,
+          50,
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_14.cs",
+        "lines": [
+          30,
+          50,
+          65
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_15.cs",
+        "lines": [
+          31,
+          56,
+          73
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_16.cs",
+        "lines": [
+          30,
+          46
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE614_Sensitive_Cookie_Without_Secure:testcases/CWE614_Sensitive_Cookie_Without_Secure/CWE614_Sensitive_Cookie_Without_Secure__Web_17.cs",
+        "lines": [
+          30,
+          45
+        ]
+      }
+    ]
+  }
+}

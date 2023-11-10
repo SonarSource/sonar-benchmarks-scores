@@ -1,0 +1,213 @@
+{
+  "benchmark": "juliet-suite-csharp",
+  "version": "1.3",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "csharpsquid:S4790": [
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_01.cs",
+        "lines": [
+          29
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_02.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_03.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_04.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_05.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_06.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_07.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_08.cs",
+        "lines": [
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_09.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_10.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_11.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_12.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_13.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_14.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_15.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_16.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__MD5_17.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_01.cs",
+        "lines": [
+          29
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_02.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_03.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_04.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_05.cs",
+        "lines": [
+          37
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_06.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_07.cs",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_08.cs",
+        "lines": [
+          44
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_09.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_10.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_11.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_12.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_13.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_14.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_15.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_16.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE328_Reversible_One_Way_Hash:testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__SHA1_17.cs",
+        "lines": [
+          31
+        ]
+      }
+    ]
+  }
+}

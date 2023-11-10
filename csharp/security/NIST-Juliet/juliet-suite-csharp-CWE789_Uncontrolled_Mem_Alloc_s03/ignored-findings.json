@@ -1,0 +1,278 @@
+{
+  "benchmark": "juliet-suite-csharp",
+  "version": "1.3",
+  "language": "CSHARP",
+  "ignoredIssues": {
+    "csharpsquid:S2245": [
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcasesupport/TestCaseSupport/IO.cs",
+        "lines": [
+          101,
+          132,
+          139,
+          145
+        ],
+        "comment": "There is no context how this methods are called."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_01.cs",
+        "lines": [
+          34
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_02.cs",
+        "lines": [
+          36
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_03.cs",
+        "lines": [
+          36
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_04.cs",
+        "lines": [
+          43
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_05.cs",
+        "lines": [
+          43
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_06.cs",
+        "lines": [
+          42
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_07.cs",
+        "lines": [
+          42
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_08.cs",
+        "lines": [
+          50
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_09.cs",
+        "lines": [
+          36
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_10.cs",
+        "lines": [
+          36
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_11.cs",
+        "lines": [
+          36
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_12.cs",
+        "lines": [
+          36
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_13.cs",
+        "lines": [
+          36
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_14.cs",
+        "lines": [
+          36
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_15.cs",
+        "lines": [
+          37
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_16.cs",
+        "lines": [
+          36
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_17.cs",
+        "lines": [
+          34
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_21.cs",
+        "lines": [
+          48
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_22b.cs",
+        "lines": [
+          34
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_31.cs",
+        "lines": [
+          37
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_41.cs",
+        "lines": [
+          39
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_42.cs",
+        "lines": [
+          33
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_45.cs",
+        "lines": [
+          45
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_51a.cs",
+        "lines": [
+          31
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_52a.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_53a.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_54a.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_61b.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_66a.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_67a.cs",
+        "lines": [
+          37
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_68a.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_71a.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_72a.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_73a.cs",
+        "lines": [
+          33
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_74a.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_75a.cs",
+        "lines": [
+          34
+        ],
+        "comment": "The test case and our rule are unrelated."
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_81a.cs",
+        "lines": [
+          32
+        ],
+        "comment": "The test case and our rule are unrelated."
+      }
+    ]
+  }
+}

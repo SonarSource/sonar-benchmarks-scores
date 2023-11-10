@@ -1,0 +1,7 @@
+{
+    "name": "FlowBlot",
+    "lastUpdate":  "2023-11-09",
+    "numberOfTestCases": 56,
+    "truePositiveRate": 94.64,
+    "falseDiscoveryRate": 5.36
+}
