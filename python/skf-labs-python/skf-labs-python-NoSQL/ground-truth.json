@@ -1,0 +1,101 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "skf-labs-python-NoSQL:db/seed.py",
+        "lines": [
+          11,
+          13,
+          15,
+          17,
+          19
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-NoSQL:NoSQL.py",
+        "lines": [
+          11
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-NoSQL:NoSQL.py",
+        "lines": [
+          12
+        ]
+      }
+    ],
+    "pythonsecurity:S5147": [
+      {
+        "fileId": "skf-labs-python-NoSQL:NoSQL.py",
+        "lines": [
+          62
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-NoSQL:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-NoSQL:templates/index.html",
+        "lines": [
+          190
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-NoSQL:templates/login.html",
+        "lines": [
+          171
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-NoSQL:templates/register.html",
+        "lines": [
+          179
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-NoSQL:Dockerfile",
+        "lines": [
+          18
+        ]
+      }
+    ],
+    "docker:S6471": [
+      {
+        "fileId": "skf-labs-python-NoSQL:Dockerfile",
+        "lines": [
+          9
+        ]
+      }
+    ],
+    "docker:S6500": [
+      {
+        "fileId": "skf-labs-python-NoSQL:Dockerfile",
+        "lines": [
+          6
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-NoSQL:NoSQL.py",
+        "lines": [
+          13
+        ]
+      }
+    ]
+  }
+}

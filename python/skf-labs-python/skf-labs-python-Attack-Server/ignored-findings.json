@@ -1,0 +1,15 @@
+{
+    "benchmark": "skf-labs-python",
+    "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+    "language": "PYTHON",
+    "ignoredIssues": {
+        "Web:S5148": [
+            {
+                "fileId": "skf-labs-python-Attack-Server:templates/logs.html",
+                "lines": [
+                111
+                ]
+            }
+        ]
+    }
+}

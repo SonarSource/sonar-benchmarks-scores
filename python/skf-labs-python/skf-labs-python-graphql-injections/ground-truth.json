@@ -1,0 +1,116 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:populate-database.py",
+        "lines": [
+          11
+        ]
+      }
+    ],
+    "pythonsecurity:S2076": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:app.py",
+        "lines": [
+          125
+        ]
+      }
+    ],
+    "python:S2092": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:app.py",
+        "lines": [
+          225,
+          226
+        ]
+      }
+    ],
+    "python:S3330": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:app.py",
+        "lines": [
+          225,
+          226
+        ]
+      }
+    ],
+    "pythonsecurity:S3649": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:app.py",
+        "lines": [
+          132
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:app.py",
+        "lines": [
+          18
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:app.py",
+        "lines": [
+          178,
+          20
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:templates/admin.html",
+        "lines": [
+          171
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-graphql-injections:templates/index.html",
+        "lines": [
+          151
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-graphql-injections:templates/login.html",
+        "lines": [
+          163
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-graphql-injections:templates/settings.html",
+        "lines": [
+          139
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:Dockerfile",
+        "lines": [
+          26
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:app.py",
+        "lines": [
+          19
+        ]
+      }
+    ],
+    "python:S6786": [
+      {
+        "fileId": "skf-labs-python-graphql-injections:app.py",
+        "lines": [
+          175
+        ]
+      }
+    ]
+  }
+}

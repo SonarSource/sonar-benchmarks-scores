@@ -1,0 +1,76 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "skf-labs-python-JWT-secret:JWT.py",
+        "lines": [
+          29
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-JWT-secret:templates/index.html",
+        "lines": [
+          23,
+          38
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-JWT-secret:JWT.py",
+        "lines": [
+          27
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-JWT-secret:JWT.py",
+        "lines": [
+          28
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-JWT-secret:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-JWT-secret:templates/index.html",
+        "lines": [
+          181
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-JWT-secret:templates/index.html",
+        "lines": [
+          167
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-JWT-secret:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-JWT-secret:JWT.py",
+        "lines": [
+          29
+        ]
+      }
+    ]
+  }
+}

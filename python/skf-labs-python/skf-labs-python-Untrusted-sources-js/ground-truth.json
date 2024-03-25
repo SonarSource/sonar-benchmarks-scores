@@ -1,0 +1,75 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "pythonsecurity:S2083": [
+      {
+        "fileId": "skf-labs-python-Untrusted-sources-js:script-provider.py",
+        "lines": [
+          9
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-Untrusted-sources-js:Untrusted-sources.py",
+        "lines": [
+          3
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Untrusted-sources-js:script-provider.py",
+        "lines": [
+          3
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-Untrusted-sources-js:Untrusted-sources.py",
+        "lines": [
+          16,
+          4
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Untrusted-sources-js:script-provider.py",
+        "lines": [
+          12,
+          4
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-Untrusted-sources-js:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Untrusted-sources-js:templates/index.html",
+        "lines": [
+          151
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-Untrusted-sources-js:templates/index.html",
+        "lines": [
+          137
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-Untrusted-sources-js:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

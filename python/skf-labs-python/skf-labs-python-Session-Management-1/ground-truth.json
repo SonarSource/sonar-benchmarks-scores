@@ -1,0 +1,81 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2092": [
+      {
+        "fileId": "skf-labs-python-Session-Management-1:Session-Management-1.py",
+        "lines": [
+          120
+        ]
+      }
+    ],
+    "python:S3330": [
+      {
+        "fileId": "skf-labs-python-Session-Management-1:Session-Management-1.py",
+        "lines": [
+          120
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-Session-Management-1:Session-Management-1.py",
+        "lines": [
+          29
+        ]
+      }
+    ],
+    "python:S4790": [
+      {
+        "fileId": "skf-labs-python-Session-Management-1:models/SQL.py",
+        "lines": [
+          25
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-Session-Management-1:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Session-Management-1:templates/500.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Session-Management-1:templates/index.html",
+        "lines": [
+          155
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Session-Management-1:templates/loggedin.html",
+        "lines": [
+          152
+        ]
+      }
+    ],
+    "python:S5328": [
+      {
+        "fileId": "skf-labs-python-Session-Management-1:Session-Management-1.py",
+        "lines": [
+          120
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-Session-Management-1:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

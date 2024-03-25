@@ -1,0 +1,61 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "pythonsecurity:S3649": [
+      {
+        "fileId": "skf-labs-python-SQLI-like:models/sqlimodel.py",
+        "lines": [
+          7
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-SQLI-like:SQLI-like.py",
+        "lines": [
+          5
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-SQLI-like:SQLI-like.py",
+        "lines": [
+          6
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-SQLI-like:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-SQLI-like:templates/index.html",
+        "lines": [
+          161
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-SQLI-like:templates/index.html",
+        "lines": [
+          142
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-SQLI-like:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-HTML-injection:evil.py",
+        "lines": [
+          5
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-HTML-injection:html-injection.py",
+        "lines": [
+          5
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-HTML-injection:evil.py",
+        "lines": [
+          23,
+          6
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-HTML-injection:html-injection.py",
+        "lines": [
+          25,
+          6
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-HTML-injection:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-HTML-injection:templates/index.html",
+        "lines": [
+          160
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-HTML-injection:templates/user-panel.html",
+        "lines": [
+          153
+        ]
+      }
+    ],
+    "jssecurity:S5696": [
+      {
+        "fileId": "skf-labs-python-HTML-injection:static/js/welcome.js",
+        "lines": [
+          6
+        ]
+      }
+    ],
+    "python:S5725": [
+      {
+        "fileId": "skf-labs-python-HTML-injection:templates/user-panel.html",
+        "lines": [
+          222,
+          226,
+          230
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-HTML-injection:Dockerfile",
+        "lines": [
+          30
+        ]
+      }
+    ]
+  }
+}

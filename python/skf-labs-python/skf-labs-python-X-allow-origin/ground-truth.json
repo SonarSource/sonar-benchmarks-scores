@@ -1,0 +1,77 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-X-allow-origin:X-Allow-origin.py",
+        "lines": [
+          7
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-X-allow-origin:evil_server.py",
+        "lines": [
+          5
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-X-allow-origin:X-Allow-origin.py",
+        "lines": [
+          15
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-X-allow-origin:evil_server.py",
+        "lines": [
+          7
+        ]
+      }
+    ],
+    "python:S5122": [
+      {
+        "fileId": "skf-labs-python-X-allow-origin:X-Allow-origin.py",
+        "lines": [
+          11,
+          22
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-X-allow-origin:templates/index.html",
+        "lines": [
+          151
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-X-allow-origin:templates/index.html",
+        "lines": [
+          138
+        ]
+      }
+    ],
+    "python:S5332": [
+      {
+        "fileId": "skf-labs-python-X-allow-origin:evil_server.py",
+        "lines": [
+          15,
+          20
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-X-allow-origin:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "DVGA",
+    "lastUpdate":  "2024-03-25",
+    "numberOfTestCases": 78,
+    "truePositiveRate": 94.87,
+    "falseDiscoveryRate": 0.0
+}

@@ -1,0 +1,39 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-SSTI:SSTI.py",
+        "lines": [
+          3
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-SSTI:SSTI.py",
+        "lines": [
+          4
+        ]
+      }
+    ],
+    "pythonsecurity:S5496": [
+      {
+        "fileId": "skf-labs-python-SSTI:SSTI.py",
+        "lines": [
+          218
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-SSTI:Dockerfile",
+        "lines": [
+          20
+        ]
+      }
+    ]
+  }
+}

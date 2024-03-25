@@ -1,0 +1,108 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S3330": [
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:Session-hijacking.py",
+        "lines": [
+          14
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:Session-hijacking.py",
+        "lines": [
+          5
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:evil_server.py",
+        "lines": [
+          4
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:Session-hijacking.py",
+        "lines": [
+          7
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:evil_server.py",
+        "lines": [
+          6
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:templates/evil.html",
+        "lines": [
+          153
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:templates/index.html",
+        "lines": [
+          156
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:templates/loggedin.html",
+        "lines": [
+          156
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:templates/index.html",
+        "lines": [
+          142
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:templates/loggedin.html",
+        "lines": [
+          141
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:Session-hijacking.py",
+        "lines": [
+          13
+        ]
+      }
+    ],
+    "pythonsecurity:stored-xss": [
+      {
+        "fileId": "skf-labs-python-session-hijacking-xss:Session-hijacking.py",
+        "lines": [
+          32,
+          46
+        ]
+      }
+    ]
+  }
+}

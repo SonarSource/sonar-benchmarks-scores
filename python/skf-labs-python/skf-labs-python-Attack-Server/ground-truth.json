@@ -1,0 +1,62 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-Attack-Server:attack-server.py",
+        "lines": [
+          30
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-Attack-Server:attack-server.py",
+        "lines": [
+          31,
+          113
+        ]
+      }
+    ],
+    "pythonsecurity:S5146": [
+      {
+        "fileId": "skf-labs-python-Attack-Server:attack-server.py",
+        "lines": [
+          64
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-Attack-Server:templates/index.html",
+        "lines": [
+          179
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Attack-Server:templates/logs.html",
+        "lines": [
+          83
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-Attack-Server:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-Attack-Server:attack-server.py",
+        "lines": [
+          112
+        ]
+      }
+    ]
+  }
+}

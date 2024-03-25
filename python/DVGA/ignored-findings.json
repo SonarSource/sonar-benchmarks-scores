@@ -1,0 +1,34 @@
+{
+    "benchmark": "DVGA",
+    "version": "ecfe3a1cefab6e482afeac4c94bcd91c2b4ec8bc",
+    "language": "PYTHON",
+    "ignoredIssues": {
+        "python:S2092": [
+            {
+              "fileId": "DVGA:core/views.py",
+              "lines": [
+                395
+              ]
+            }
+        ],
+        "python:S2245": [
+            {
+              "fileId": "DVGA:core/security.py",
+              "lines": [
+                11
+              ]
+            },
+            {
+              "fileId": "DVGA:setup.py",
+              "lines": [
+                33,
+                36,
+                39,
+                45,
+                49,
+                55
+              ]
+            }
+        ]
+    }
+}

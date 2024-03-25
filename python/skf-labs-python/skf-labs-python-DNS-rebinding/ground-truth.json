@@ -1,0 +1,77 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-DNS-rebinding:rebind.py",
+        "lines": [
+          7
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-DNS-rebinding:rebind.py",
+        "lines": [
+          8
+        ]
+      }
+    ],
+    "pythonsecurity:S5131": [
+      {
+        "fileId": "skf-labs-python-DNS-rebinding:templates/index.html",
+        "lines": [
+          145
+        ]
+      }
+    ],
+    "pythonsecurity:S5144": [
+      {
+        "fileId": "skf-labs-python-DNS-rebinding:rebind.py",
+        "lines": [
+          25
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-DNS-rebinding:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-DNS-rebinding:templates/index.html",
+        "lines": [
+          160
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-DNS-rebinding:templates/index.html",
+        "lines": [
+          145
+        ]
+      }
+    ],
+    "python:S5332": [
+      {
+        "fileId": "skf-labs-python-DNS-rebinding:rebind.py",
+        "lines": [
+          25
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-DNS-rebinding:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

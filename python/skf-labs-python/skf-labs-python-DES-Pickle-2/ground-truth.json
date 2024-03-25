@@ -1,0 +1,91 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2092": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:Login.py",
+        "lines": [
+          48,
+          78
+        ]
+      }
+    ],
+    "python:S3330": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:Login.py",
+        "lines": [
+          48,
+          78
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:Login.py",
+        "lines": [
+          6
+        ]
+      }
+    ],
+    "pythonsecurity:S5135": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:Login.py",
+        "lines": [
+          31
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:templates/index.html",
+        "lines": [
+          160
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:templates/loggedin.html",
+        "lines": [
+          159
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:templates/register.html",
+        "lines": [
+          155
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:templates/index.html",
+        "lines": [
+          146
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle-2:Login.py",
+        "lines": [
+          13
+        ]
+      }
+    ]
+  }
+}

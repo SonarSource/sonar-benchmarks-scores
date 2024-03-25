@@ -1,0 +1,91 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2092": [
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:SQLI-login-bypass.py",
+        "lines": [
+          54,
+          85
+        ]
+      }
+    ],
+    "python:S3330": [
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:SQLI-login-bypass.py",
+        "lines": [
+          54,
+          85
+        ]
+      }
+    ],
+    "pythonsecurity:S3649": [
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:models/sqlimodel.py",
+        "lines": [
+          22
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:SQLI-login-bypass.py",
+        "lines": [
+          27
+        ]
+      }
+    ],
+    "python:S4790": [
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:SQLI-login-bypass.py",
+        "lines": [
+          54
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:templates/500.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:templates/index.html",
+        "lines": [
+          156
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:templates/loggedin.html",
+        "lines": [
+          152
+        ]
+      }
+    ],
+    "python:S5328": [
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:SQLI-login-bypass.py",
+        "lines": [
+          54
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-SQLI-login-bypass:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}
