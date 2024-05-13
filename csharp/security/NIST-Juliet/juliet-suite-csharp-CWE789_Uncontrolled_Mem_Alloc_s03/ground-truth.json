@@ -1,0 +1,705 @@
+{
+  "benchmark": "juliet-suite-csharp",
+  "version": "1.3",
+  "language": "CSHARP",
+  "expectedIssues": {
+    "csharpsquid:S5773": [
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__Random_HashSet_75b.cs",
+        "lines": [
+          42,
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_75b.cs",
+        "lines": [
+          42,
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_75b.cs",
+        "lines": [
+          42,
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_75b.cs",
+        "lines": [
+          42,
+          66
+        ]
+      }
+    ],
+    "roslyn.sonaranalyzer.security.cs:S6639": [
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_01.cs",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_02.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_03.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_04.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_05.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_06.cs",
+        "lines": [
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_07.cs",
+        "lines": [
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_08.cs",
+        "lines": [
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_09.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_10.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_11.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_12.cs",
+        "lines": [
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_13.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_14.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_15.cs",
+        "lines": [
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_16.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_17.cs",
+        "lines": [
+          62
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_21.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_22a.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_31.cs",
+        "lines": [
+          67
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_41.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_42.cs",
+        "lines": [
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_45.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_51b.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_52c.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_53d.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_54e.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_61a.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_66b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_67b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_68b.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_71b.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_72b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_73b.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_74b.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_75b.cs",
+        "lines": [
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_ArrayList_81_bad.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_01.cs",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_02.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_03.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_04.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_05.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_06.cs",
+        "lines": [
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_07.cs",
+        "lines": [
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_08.cs",
+        "lines": [
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_09.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_10.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_11.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_12.cs",
+        "lines": [
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_13.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_14.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_15.cs",
+        "lines": [
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_16.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_17.cs",
+        "lines": [
+          62
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_21.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_22a.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_31.cs",
+        "lines": [
+          67
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_41.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_42.cs",
+        "lines": [
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_45.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_51b.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_52c.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_53d.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_54e.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_61a.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_66b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_67b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_68b.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_71b.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_72b.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_73b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_74b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_75b.cs",
+        "lines": [
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_Dictionary_81_bad.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_01.cs",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_02.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_03.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_04.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_05.cs",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_06.cs",
+        "lines": [
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_07.cs",
+        "lines": [
+          75
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_08.cs",
+        "lines": [
+          83
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_09.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_10.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_11.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_12.cs",
+        "lines": [
+          68
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_13.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_14.cs",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_15.cs",
+        "lines": [
+          70
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_16.cs",
+        "lines": [
+          64
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_17.cs",
+        "lines": [
+          62
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_21.cs",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_22a.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_31.cs",
+        "lines": [
+          67
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_41.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_42.cs",
+        "lines": [
+          66
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_45.cs",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_51b.cs",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_52c.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_53d.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_54e.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_61a.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_66b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_67b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_68b.cs",
+        "lines": [
+          32
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_71b.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_72b.cs",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_73b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_74b.cs",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_75b.cs",
+        "lines": [
+          45
+        ]
+      },
+      {
+        "fileId": "juliet-suite-csharp-CWE789_Uncontrolled_Mem_Alloc_s03:testcases/CWE789_Uncontrolled_Mem_Alloc/s03/CWE789_Uncontrolled_Mem_Alloc__ReadLine_HashSet_81_bad.cs",
+        "lines": [
+          33
+        ]
+      }
+    ]
+  }
+}

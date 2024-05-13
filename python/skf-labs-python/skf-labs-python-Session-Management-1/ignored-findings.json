@@ -1,0 +1,23 @@
+{
+    "benchmark": "skf-labs-python",
+    "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+    "language": "PYTHON",
+    "ignoredIssues": {
+        "python:S2092": [
+            {
+              "fileId": "skf-labs-python-Session-Management-1:Session-Management-1.py",
+              "lines": [
+                126
+              ]
+            }
+        ],
+        "python:S3330": [
+            {
+              "fileId": "skf-labs-python-Session-Management-1:Session-Management-1.py",
+              "lines": [
+                126
+              ]
+            }
+        ]
+    }
+}

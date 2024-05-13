@@ -1,0 +1,69 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "skf-labs-python-Ldap-injection:ldap-injection.py",
+        "lines": [
+          15
+        ]
+      }
+    ],
+    "pythonsecurity:S2078": [
+      {
+        "fileId": "skf-labs-python-Ldap-injection:ldap-injection.py",
+        "lines": [
+          29
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-Ldap-injection:ldap-injection.py",
+        "lines": [
+          6
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-Ldap-injection:ldap-injection.py",
+        "lines": [
+          7
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-Ldap-injection:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Ldap-injection:templates/index.html",
+        "lines": [
+          155
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-Ldap-injection:templates/index.html",
+        "lines": [
+          142
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-Ldap-injection:Dockerfile",
+        "lines": [
+          25
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "skf-labs-python-ratelimiting:ratelimiting.py",
+        "lines": [
+          4,
+          11
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-ratelimiting:ratelimiting.py",
+        "lines": [
+          3
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-ratelimiting:templates/login.html",
+        "lines": [
+          162
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-ratelimiting:templates/pwned.html",
+        "lines": [
+          141
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-ratelimiting:templates/login.html",
+        "lines": [
+          148
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-ratelimiting:templates/pwned.html",
+        "lines": [
+          127
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-ratelimiting:Dockerfile",
+        "lines": [
+          20
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-ratelimiting:ratelimiting.py",
+        "lines": [
+          4
+        ]
+      }
+    ]
+  }
+}

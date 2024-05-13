@@ -1,0 +1,84 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:db/users.py",
+        "lines": [
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "python:S2245": [
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:weak-lock-out-mechanism.py",
+        "lines": [
+          14,
+          113,
+          114,
+          116
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:weak-lock-out-mechanism.py",
+        "lines": [
+          11
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:weak-lock-out-mechanism.py",
+        "lines": [
+          12
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:templates/index.html",
+        "lines": [
+          162
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:templates/login.html",
+        "lines": [
+          185
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:templates/profile.html",
+        "lines": [
+          156
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:templates/register.html",
+        "lines": [
+          180
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-weak-lock-out-mechanism:Dockerfile",
+        "lines": [
+          30
+        ]
+      }
+    ]
+  }
+}

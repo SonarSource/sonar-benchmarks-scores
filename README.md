@@ -1,4 +1,4 @@
-# sonar-benchmarks-scores
+# Sonar Benchmarks Scores
 
 The goal of this repository is to centralize the ground truths of popular SAST Benchmarks.
 By ground truths, we mean what should be detected or not detected by a SAST product.

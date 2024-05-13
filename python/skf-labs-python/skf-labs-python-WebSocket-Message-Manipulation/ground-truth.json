@@ -1,0 +1,62 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-WebSocket-Message-Manipulation:WebSocket-Message-Manipulation.py",
+        "lines": [
+          28
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-WebSocket-Message-Manipulation:WebSocket-Message-Manipulation.py",
+        "lines": [
+          29
+        ]
+      }
+    ],
+    "pythonsecurity:S5131": [
+      {
+        "fileId": "skf-labs-python-WebSocket-Message-Manipulation:WebSocket-Message-Manipulation.py",
+        "lines": [
+          56
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-WebSocket-Message-Manipulation:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-WebSocket-Message-Manipulation:templates/index.html",
+        "lines": [
+          175
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-WebSocket-Message-Manipulation:templates/index.html",
+        "lines": [
+          134,
+          135
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-WebSocket-Message-Manipulation:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

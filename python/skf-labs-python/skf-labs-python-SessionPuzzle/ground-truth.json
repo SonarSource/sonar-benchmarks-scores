@@ -1,0 +1,66 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-SessionPuzzle:SessionPuzzle.py",
+        "lines": [
+          4
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-SessionPuzzle:SessionPuzzle.py",
+        "lines": [
+          5,
+          93
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-SessionPuzzle:templates/dashboard.html",
+        "lines": [
+          177
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-SessionPuzzle:templates/forgot.html",
+        "lines": [
+          150
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-SessionPuzzle:templates/index.html",
+        "lines": [
+          153
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-SessionPuzzle:templates/registration.html",
+        "lines": [
+          146
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-SessionPuzzle:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-SessionPuzzle:SessionPuzzle.py",
+        "lines": [
+          92
+        ]
+      }
+    ]
+  }
+}

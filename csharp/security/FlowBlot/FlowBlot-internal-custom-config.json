@@ -1,0 +1,31 @@
+{
+  "S5131": {
+    "sinks": [
+      {
+        "methodId": "FlowBlot.Model.Framework.Sink(string)",
+        "args": [
+          1
+        ]
+      }
+    ]
+  },
+  "common": {
+    "sources": [
+      {
+        "methodId": "FlowBlot.Model.Framework.Source()"
+      },
+      {
+        "methodId": "System.Console.ReadLine()"
+      },
+      {
+        "methodId": "FlowBlot.Model.IShoppingCart.FetchItem(int)"
+      },
+      {
+        "methodId": "FlowBlot.Model.Machine.SayName()"
+      },
+      {
+        "methodId": "FlowBlot.Model.IWeatherService.GetWeatherData(string)"
+      }
+    ]
+  }
+}

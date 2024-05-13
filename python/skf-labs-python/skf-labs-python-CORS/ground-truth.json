@@ -1,0 +1,93 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-CORS:CORS.py",
+        "lines": [
+          6
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CORS:evil_server.py",
+        "lines": [
+          4
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-CORS:CORS.py",
+        "lines": [
+          8
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CORS:evil_server.py",
+        "lines": [
+          6
+        ]
+      }
+    ],
+    "python:S5122": [
+      {
+        "fileId": "skf-labs-python-CORS:CORS.py",
+        "lines": [
+          51
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-CORS:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CORS:templates/evil.html",
+        "lines": [
+          168
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CORS:templates/index.html",
+        "lines": [
+          157
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CORS:templates/loggedin.html",
+        "lines": [
+          179
+        ]
+      }
+    ],
+    "Web:S5332": [
+      {
+        "fileId": "skf-labs-python-CORS:templates/evil.html",
+        "lines": [
+          27
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-CORS:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-CORS:CORS.py",
+        "lines": [
+          14
+        ]
+      }
+    ]
+  }
+}

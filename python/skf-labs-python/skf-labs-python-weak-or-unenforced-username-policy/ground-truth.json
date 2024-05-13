@@ -1,0 +1,83 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:db/users.py",
+        "lines": [
+          20,
+          22,
+          24,
+          26,
+          28
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:weak-or-unenforced-username-policy.py",
+        "lines": [
+          10
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:weak-or-unenforced-username-policy.py",
+        "lines": [
+          11
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:templates/index.html",
+        "lines": [
+          164
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:templates/login.html",
+        "lines": [
+          171
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:templates/profile.html",
+        "lines": [
+          158
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:templates/register.html",
+        "lines": [
+          215
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:Dockerfile",
+        "lines": [
+          30
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-weak-or-unenforced-username-policy:weak-or-unenforced-username-policy.py",
+        "lines": [
+          12
+        ]
+      }
+    ]
+  }
+}

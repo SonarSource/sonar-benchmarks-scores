@@ -1,0 +1,45 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-XSS-DOM:XSS-DOM.py",
+        "lines": [
+          4
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-XSS-DOM:XSS-DOM.py",
+        "lines": [
+          5
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-XSS-DOM:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-XSS-DOM:templates/index.html",
+        "lines": [
+          165
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-XSS-DOM:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

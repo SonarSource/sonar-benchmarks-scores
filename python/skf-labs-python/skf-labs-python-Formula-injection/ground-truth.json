@@ -1,0 +1,55 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "pythonsecurity:S3649": [
+      {
+        "fileId": "skf-labs-python-Formula-injection:models/sqlimodel.py",
+        "lines": [
+          7
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-Formula-injection:formula.py",
+        "lines": [
+          6
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-Formula-injection:formula.py",
+        "lines": [
+          7
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-Formula-injection:templates/index.html",
+        "lines": [
+          192
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-Formula-injection:templates/index.html",
+        "lines": [
+          173
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-Formula-injection:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

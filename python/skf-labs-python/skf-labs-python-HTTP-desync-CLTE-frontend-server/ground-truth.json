@@ -1,0 +1,23 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S5332": [
+      {
+        "fileId": "skf-labs-python-HTTP-desync-CLTE-frontend-server:http-desync-clte-frontend-server.py",
+        "lines": [
+          68
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-HTTP-desync-CLTE-frontend-server:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}
