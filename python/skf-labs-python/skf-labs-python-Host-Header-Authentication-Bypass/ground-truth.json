@@ -1,0 +1,60 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-Host-Header-Authentication-Bypass:host-header-authentication-bypass.py",
+        "lines": [
+          33
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-Host-Header-Authentication-Bypass:host-header-authentication-bypass.py",
+        "lines": [
+          136,
+          34
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-Host-Header-Authentication-Bypass:templates/dashboard.html",
+        "lines": [
+          178
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Host-Header-Authentication-Bypass:templates/index.html",
+        "lines": [
+          145
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Host-Header-Authentication-Bypass:templates/login.html",
+        "lines": [
+          149
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-Host-Header-Authentication-Bypass:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-Host-Header-Authentication-Bypass:host-header-authentication-bypass.py",
+        "lines": [
+          135
+        ]
+      }
+    ]
+  }
+}

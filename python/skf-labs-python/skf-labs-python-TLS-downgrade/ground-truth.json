@@ -1,0 +1,79 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4423": [
+      {
+        "fileId": "skf-labs-python-TLS-downgrade:TLS-downgrade.py",
+        "lines": [
+          11,
+          12
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-TLS-downgrade:TLS-downgrade.py",
+        "lines": [
+          18
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-TLS-downgrade:TLS-downgrade.py",
+        "lines": [
+          19,
+          31
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-TLS-downgrade:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-TLS-downgrade:templates/index.html",
+        "lines": [
+          151
+        ]
+      }
+    ],
+    "docker:S5332": [
+      {
+        "fileId": "skf-labs-python-TLS-downgrade:Docker/Dockerfile",
+        "lines": [
+          22
+        ]
+      }
+    ],
+    "python:S5547": [
+      {
+        "fileId": "skf-labs-python-TLS-downgrade:TLS-downgrade.py",
+        "lines": [
+          13
+        ]
+      }
+    ],
+    "docker:S6437": [
+      {
+        "fileId": "skf-labs-python-TLS-downgrade:Docker/Dockerfile",
+        "lines": [
+          26
+        ]
+      }
+    ],
+    "docker:S6471": [
+      {
+        "fileId": "skf-labs-python-TLS-downgrade:Docker/Dockerfile",
+        "lines": [
+          1
+        ]
+      }
+    ]
+  }
+}

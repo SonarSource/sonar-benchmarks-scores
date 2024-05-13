@@ -1,0 +1,39 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "pythonsecurity:S2083": [
+      {
+        "fileId": "skf-labs-python-HTTP-desync-CLTE-backend-server:http-desync-clte-backend-server.py",
+        "lines": [
+          49
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-HTTP-desync-CLTE-backend-server:templates/index.html",
+        "lines": [
+          131
+        ]
+      }
+    ],
+    "python:S5332": [
+      {
+        "fileId": "skf-labs-python-HTTP-desync-CLTE-backend-server:http-desync-clte-backend-server.py",
+        "lines": [
+          80
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-HTTP-desync-CLTE-backend-server:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

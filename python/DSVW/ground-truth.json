@@ -1,0 +1,166 @@
+{
+  "benchmark": "DSVW",
+  "version": "d8b1d4d954600c3affa74ca21cf4ab07194e9638",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          11,
+          12
+        ]
+      }
+    ],
+    "pythonsecurity:S2076": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          39
+        ]
+      }
+    ],
+    "pythonsecurity:S2083": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          37,
+          56
+        ]
+      }
+    ],
+    "pythonsecurity:S2091": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          43
+        ]
+      }
+    ],
+    "python:S2245": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          68
+        ]
+      }
+    ],
+    "python:S2755": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          41
+        ]
+      }
+    ],
+    "pythonsecurity:S3649": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          30,
+          50,
+          67
+        ]
+      }
+    ],
+    "pythonsecurity:S5131": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          80
+        ]
+      }
+    ],
+    "pythonsecurity:S5135": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          35
+        ]
+      }
+    ],
+    "pythonsecurity:S5144": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          37,
+          56
+        ]
+      }
+    ],
+    "pythonsecurity:S5146": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          61
+        ]
+      }
+    ],
+    "python:S5332": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          12,
+          86,
+          92
+        ]
+      }
+    ],
+    "pythonsecurity:S5334": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          57
+        ]
+      }
+    ],
+    "jssecurity:S5696": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          10
+        ]
+      }
+    ],
+    "docker:S6471": [
+      {
+        "fileId": "DSVW:Dockerfile",
+        "lines": [
+          3
+        ]
+      }
+    ],
+    "pythonsecurity:S6639": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          46
+        ]
+      }
+    ],
+    "pythonsecurity:S6680": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          46
+        ]
+      }
+    ],
+    "pythonsecurity:S6776": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          80
+        ]
+      }
+    ],
+    "pythonsecurity:S6839": [
+      {
+        "fileId": "DSVW:dsvw.py",
+        "lines": [
+          78
+        ]
+      }
+    ]
+  }
+}

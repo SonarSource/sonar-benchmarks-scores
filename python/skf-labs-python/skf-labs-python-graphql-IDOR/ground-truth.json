@@ -1,0 +1,86 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2092": [
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:app.py",
+        "lines": [
+          179,
+          180
+        ]
+      }
+    ],
+    "python:S3330": [
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:app.py",
+        "lines": [
+          179,
+          180
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:app.py",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:app.py",
+        "lines": [
+          133,
+          19
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:templates/index.html",
+        "lines": [
+          139
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:templates/login.html",
+        "lines": [
+          163
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:templates/settings.html",
+        "lines": [
+          139
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:Dockerfile",
+        "lines": [
+          26
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:app.py",
+        "lines": [
+          18
+        ]
+      }
+    ],
+    "python:S6786": [
+      {
+        "fileId": "skf-labs-python-graphql-IDOR:app.py",
+        "lines": [
+          130
+        ]
+      }
+    ]
+  }
+}

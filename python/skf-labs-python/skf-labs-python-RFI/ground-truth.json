@@ -1,0 +1,91 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-RFI:RFI.py",
+        "lines": [
+          7
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-RFI:evil_server.py",
+        "lines": [
+          4
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-RFI:RFI.py",
+        "lines": [
+          8
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-RFI:evil_server.py",
+        "lines": [
+          5
+        ]
+      }
+    ],
+    "pythonsecurity:S5131": [
+      {
+        "fileId": "skf-labs-python-RFI:templates/index.html",
+        "lines": [
+          148
+        ]
+      }
+    ],
+    "pythonsecurity:S5144": [
+      {
+        "fileId": "skf-labs-python-RFI:RFI.py",
+        "lines": [
+          23,
+          26
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-RFI:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-RFI:templates/index.html",
+        "lines": [
+          163
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-RFI:templates/index.html",
+        "lines": [
+          148
+        ]
+      }
+    ],
+    "pythonsecurity:S5334": [
+      {
+        "fileId": "skf-labs-python-RFI:RFI.py",
+        "lines": [
+          23,
+          26
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-RFI:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2092": [
+      {
+        "fileId": "skf-labs-python-Threat-modeling:TM.py",
+        "lines": [
+          34
+        ]
+      }
+    ],
+    "python:S3330": [
+      {
+        "fileId": "skf-labs-python-Threat-modeling:TM.py",
+        "lines": [
+          16,
+          34
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-Threat-modeling:TM.py",
+        "lines": [
+          7
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-Threat-modeling:TM.py",
+        "lines": [
+          9
+        ]
+      }
+    ],
+    "python:S4790": [
+      {
+        "fileId": "skf-labs-python-Threat-modeling:TM.py",
+        "lines": [
+          79
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-Threat-modeling:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Threat-modeling:templates/evil.html",
+        "lines": [
+          153
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Threat-modeling:templates/fail.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Threat-modeling:templates/forget.html",
+        "lines": [
+          151
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Threat-modeling:templates/index.html",
+        "lines": [
+          156
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Threat-modeling:templates/loggedin.html",
+        "lines": [
+          187
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Threat-modeling:templates/register.html",
+        "lines": [
+          158
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Threat-modeling:templates/reset.html",
+        "lines": [
+          155
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-Threat-modeling:templates/loggedin.html",
+        "lines": [
+          159
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-Threat-modeling:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-Threat-modeling:TM.py",
+        "lines": [
+          15
+        ]
+      }
+    ]
+  }
+}

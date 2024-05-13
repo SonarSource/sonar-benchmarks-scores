@@ -1,0 +1,61 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle:DES-Pickle.py",
+        "lines": [
+          4
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle:DES-Pickle.py",
+        "lines": [
+          5
+        ]
+      }
+    ],
+    "pythonsecurity:S5135": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle:DES-Pickle.py",
+        "lines": [
+          26
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-DES-Pickle:templates/index.html",
+        "lines": [
+          167
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle:templates/index.html",
+        "lines": [
+          140
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-DES-Pickle:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

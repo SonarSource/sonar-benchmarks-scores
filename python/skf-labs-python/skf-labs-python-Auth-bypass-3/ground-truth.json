@@ -1,0 +1,72 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "skf-labs-python-Auth-bypass-3:Auth-bypass.py",
+        "lines": [
+          28,
+          34
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-Auth-bypass-3:Auth-bypass.py",
+        "lines": [
+          3
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-Auth-bypass-3:Auth-bypass.py",
+        "lines": [
+          4
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-Auth-bypass-3:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Auth-bypass-3:templates/index.html",
+        "lines": [
+          155
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Auth-bypass-3:templates/user_created_right.html",
+        "lines": [
+          154
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Auth-bypass-3:templates/useraccount.html",
+        "lines": [
+          161
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-Auth-bypass-3:templates/useraccount_empty.html",
+        "lines": [
+          157
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-Auth-bypass-3:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

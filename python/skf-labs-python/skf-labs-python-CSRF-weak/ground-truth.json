@@ -1,0 +1,79 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-CSRF-weak:CSRF-weak.py",
+        "lines": [
+          7
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CSRF-weak:evil_server.py",
+        "lines": [
+          7
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-CSRF-weak:CSRF-weak.py",
+        "lines": [
+          9
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CSRF-weak:evil_server.py",
+        "lines": [
+          9
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-CSRF-weak:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CSRF-weak:templates/evil.html",
+        "lines": [
+          167
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CSRF-weak:templates/loggedin.html",
+        "lines": [
+          163
+        ]
+      }
+    ],
+    "Web:S5247": [
+      {
+        "fileId": "skf-labs-python-CSRF-weak:templates/index.html",
+        "lines": [
+          142
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-CSRF-weak:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "skf-labs-python-CSRF-weak:CSRF-weak.py",
+        "lines": [
+          15
+        ]
+      }
+    ]
+  }
+}

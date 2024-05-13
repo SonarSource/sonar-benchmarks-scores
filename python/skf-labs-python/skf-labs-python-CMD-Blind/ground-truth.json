@@ -1,0 +1,53 @@
+{
+  "benchmark": "skf-labs-python",
+  "version": "a3f87f63d1f4138039357cf7d0c353636e3efa09",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "pythonsecurity:S2076": [
+      {
+        "fileId": "skf-labs-python-CMD-Blind:CMD-Blind.py",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "skf-labs-python-CMD-Blind:CMD-Blind.py",
+        "lines": [
+          5
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "skf-labs-python-CMD-Blind:CMD-Blind.py",
+        "lines": [
+          6
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "skf-labs-python-CMD-Blind:templates/404.html",
+        "lines": [
+          144
+        ]
+      },
+      {
+        "fileId": "skf-labs-python-CMD-Blind:templates/index.html",
+        "lines": [
+          159
+        ]
+      }
+    ],
+    "docker:S6470": [
+      {
+        "fileId": "skf-labs-python-CMD-Blind:Dockerfile",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  }
+}

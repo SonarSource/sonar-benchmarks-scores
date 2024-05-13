@@ -1,0 +1,329 @@
+{
+  "benchmark": "DVGA",
+  "version": "ecfe3a1cefab6e482afeac4c94bcd91c2b4ec8bc",
+  "language": "PYTHON",
+  "expectedIssues": {
+    "python:S2068": [
+      {
+        "fileId": "DVGA:app.py",
+        "lines": [
+          15
+        ]
+      }
+    ],
+    "pythonsecurity:S2076": [
+      {
+        "fileId": "DVGA:core/helpers.py",
+        "lines": [
+          9
+        ]
+      }
+    ],
+    "pythonsecurity:S2083": [
+      {
+        "fileId": "DVGA:core/helpers.py",
+        "lines": [
+          25
+        ]
+      }
+    ],
+    "python:S3330": [
+      {
+        "fileId": "DVGA:core/views.py",
+        "lines": [
+          395
+        ]
+      }
+    ],
+    "pythonsecurity:S3649": [
+      {
+        "fileId": "DVGA:core/views.py",
+        "lines": [
+          320
+        ]
+      }
+    ],
+    "python:S4502": [
+      {
+        "fileId": "DVGA:app.py",
+        "lines": [
+          10
+        ]
+      }
+    ],
+    "python:S4507": [
+      {
+        "fileId": "DVGA:core/views.py",
+        "lines": [
+          520
+        ]
+      }
+    ],
+    "Web:S5148": [
+      {
+        "fileId": "DVGA:templates/index.html",
+        "lines": [
+          50,
+          53,
+          56,
+          63,
+          66
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/navbar.html",
+        "lines": [
+          11
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/sidebar.html",
+        "lines": [
+          12
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_1.html",
+        "lines": [
+          10,
+          11
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_10.html",
+        "lines": [
+          12
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_11.html",
+        "lines": [
+          14
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_12.html",
+        "lines": [
+          11
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_13.html",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_14.html",
+        "lines": [
+          11
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_15.html",
+        "lines": [
+          11
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_16.html",
+        "lines": [
+          11
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_17.html",
+        "lines": [
+          28,
+          33,
+          38
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_18.html",
+        "lines": [
+          14
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_19.html",
+        "lines": [
+          16
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_2.html",
+        "lines": [
+          11,
+          16
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_20.html",
+        "lines": [
+          12,
+          17
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_3.html",
+        "lines": [
+          12
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_4.html",
+        "lines": [
+          19
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_5.html",
+        "lines": [
+          18,
+          23
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_6.html",
+        "lines": [
+          19,
+          24,
+          29,
+          34,
+          39
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_7.html",
+        "lines": [
+          14,
+          19
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_8.html",
+        "lines": [
+          16,
+          21,
+          26,
+          31
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/partials/solutions/solution_9.html",
+        "lines": [
+          12,
+          17
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/solutions.html",
+        "lines": [
+          154
+        ]
+      }
+    ],
+    "python:S5332": [
+      {
+        "fileId": "DVGA:tests/common.py",
+        "lines": [
+          10
+        ]
+      }
+    ],
+    "python:S5659": [
+      {
+        "fileId": "DVGA:core/helpers.py",
+        "lines": [
+          21
+        ]
+      }
+    ],
+    "docker:S6504": [
+      {
+        "fileId": "DVGA:Dockerfile",
+        "lines": [
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "fileId": "DVGA:Dockerfile.arm64",
+        "lines": [
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    ],
+    "pythonsecurity:S6776": [
+      {
+        "fileId": "DVGA:core/views.py",
+        "lines": [
+          522
+        ]
+      }
+    ],
+    "python:S6779": [
+      {
+        "fileId": "DVGA:app.py",
+        "lines": [
+          15
+        ]
+      }
+    ],
+    "python:S6781": [
+      {
+        "fileId": "DVGA:app.py",
+        "lines": [
+          16
+        ]
+      }
+    ],
+    "python:S6785": [
+      {
+        "fileId": "DVGA:core/views.py",
+        "lines": [
+          516
+        ]
+      }
+    ],
+    "python:S6786": [
+      {
+        "fileId": "DVGA:core/views.py",
+        "lines": [
+          516
+        ]
+      }
+    ],
+    "pythonsecurity:stored-xss": [
+      {
+        "fileId": "DVGA:core/models.py",
+        "lines": [
+          109
+        ]
+      },
+      {
+        "fileId": "DVGA:templates/paste.html",
+        "lines": [
+          77,
+          79
+        ]
+      }
+    ]
+  }
+}
