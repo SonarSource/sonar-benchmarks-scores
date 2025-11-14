@@ -1,98 +1,110 @@
 {
-    "version": "3fd66ee9d94ae2673bff0867eeda5fadfd7a8dde",
-    "ignoredIssues": {
-      "S2068": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/passwordreset/ResetLinkAssignment.java",
-          "lines": [
-            118
-          ],
-          "comment": "There is no password involved here."
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/missingac/MissingFunctionAC.java",
-          "lines": [
-            32,
-            33
-          ],
-          "comment": "The reported value is a cryptographic salt and not a password."
-        }
-      ],
-      "S2245": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/cryptography/EncodingAssignment.java",
-          "lines": [
-            52
-          ],
-          "comment": "Artifical case with no security implication."
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/cryptography/HashingAssignment.java",
-          "lines": [
-            53
-          ],
-          "comment": "Artifical case with no security implication."
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/cryptography/HashingAssignment.java",
-          "lines": [
-            71
-          ],
-          "comment": "Artifical case with no security implication."
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/hijacksession/cas/HijackSessionAuthenticationProvider.java",
-          "lines": [
-            79
-          ],
-          "comment": "Not security related."
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTSecretKeyEndpoint.java",
-          "lines": [
-            53
-          ],
-          "comment": "Artifical case with no security implication."
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java",
-          "lines": [
-            92
-          ],
-          "comment": "Non crypto related random use."
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/xxe/BlindSendFileAssignment.java",
-          "lines": [
-            72
-          ],
-          "comment": "Artifical case with no security implication."
-        }
-      ],
-      "S3330": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
-          "lines": [
-            135
-          ],
-          "comment": "http_only not set on a cookie with an empty value."
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/spoofcookie/SpoofCookieAssignment.java",
-          "lines": [
-            76
-          ],
-          "comment": "http_only not set on a cookie with an empty value."
-        }
-      ],
-      "S4502": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/webwolf/WebSecurityConfig.java",
-          "lines": [
-            60
-          ],
-          "comment": "CSRF protection is disabled on the login page, login is not a sensitive action."
-        }
-      ]
-    }
+  "benchmark": "WebGoat",
+  "version": "06c0be257f3ec5b02521368b030018816ac94090",
+  "language": "JAVA",
+  "ignoredIssues": {
+    "java:S2068": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/passwordreset/ResetLinkAssignment.java",
+        "lines": [
+          103
+        ],
+        "comment": "There is no password involved here."
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/missingac/MissingFunctionAC.java",
+        "lines": [
+          14,
+          15
+        ],
+        "comment": "The reported value is a cryptographic salt and not a password."
+      }
+    ],
+    "java:S2092": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/spoofcookie/SpoofCookieAssignment.java",
+        "lines": [
+          58
+        ],
+        "comment": "Irrelevant because this is an empty cookie."
+      }
+    ],
+    "java:S2245": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/challenges/challenge1/ImageServlet.java",
+        "lines": [
+          21
+        ],
+        "comment": "Irrelevant because this is only used to retrieve pixels of an image."
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/cryptography/EncodingAssignment.java",
+        "lines": [
+          37
+        ],
+        "comment": "Artifical case with no security implication."
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/cryptography/HashingAssignment.java",
+        "lines": [
+          37,
+          55
+        ],
+        "comment": "Artifical case with no security implication."
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/hijacksession/cas/HijackSessionAuthenticationProvider.java",
+        "lines": [
+          56
+        ],
+        "comment": "Not security related."
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTSecretKeyEndpoint.java",
+        "lines": [
+          53
+        ],
+        "comment": "Artifical case with no security implication."
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java",
+        "lines": [
+          101
+        ],
+        "comment": "Non crypto related random use."
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/xxe/BlindSendFileAssignment.java",
+        "lines": [
+          54
+        ],
+        "comment": "Artifical case with no security implication."
+      }
+    ],
+    "java:S3330": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
+        "lines": [
+          119
+        ],
+        "comment": "http_only not set on a cookie with an empty value."
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/spoofcookie/SpoofCookieAssignment.java",
+        "lines": [
+          58
+        ],
+        "comment": "http_only not set on a cookie with an empty value."
+      }
+    ],
+    "java:S4502": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/webwolf/WebSecurityConfig.java",
+        "lines": [
+          47
+        ],
+        "comment": "CSRF protection is disabled on the login page, login is not a sensitive action."
+      }
+    ]
   }
+}

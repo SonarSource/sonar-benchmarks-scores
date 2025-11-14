@@ -1,351 +1,382 @@
 {
-    "version": "3fd66ee9d94ae2673bff0867eeda5fadfd7a8dde",
-    "expectedIssues": {
-      "S2068": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/challenges/SolutionConstants.java",
-          "lines": [
-            34,
-            35,
-            36
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/challenges/challenge7/Assignment7.java",
-          "lines": [
-            34
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/idor/IDORLogin.java",
-          "lines": [
-            45,
-            51
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/insecurelogin/InsecureLoginTask.java",
-          "lines": [
-            36
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTRefreshEndpoint.java",
-          "lines": [
-            61,
-            62,
-            77
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6b.java",
-          "lines": [
-            58
-          ]
-        }
-      ],
-      "S2083": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadBase.java",
-          "lines": [
-            43,
-            44
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java",
-          "lines": [
-            97,
-            103,
-            108
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/webwolf/FileServer.java",
-          "lines": [
-            78
-          ]
-        }
-      ],
-      "S2092": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
-          "lines": [
-            130
-          ]
-        }
-      ],
-      "S2245": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/challenges/challenge7/PasswordResetLink.java",
-          "lines": [
-            14
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/csrf/CSRFGetFlag.java",
-          "lines": [
-            59,
-            65,
-            76
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/hijacksession/cas/HijackSessionAuthenticationProvider.java",
-          "lines": [
-            48
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTRefreshEndpoint.java",
-          "lines": [
-            92
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/spoofcookie/encoders/EncDec.java",
-          "lines": [
-            40
-          ]
-        }
-      ],
-      "S2755": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/xxe/CommentsCache.java",
-          "lines": [
-            98
-          ]
-        }
-      ],
-      "S3330": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/hijacksession/HijackSessionAssignment.java",
-          "lines": [
-            86
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
-          "lines": [
-            130
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/spoofcookie/SpoofCookieAssignment.java",
-          "lines": [
-            92
-          ]
-        }
-      ],
-      "S3649": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/Servers.java",
-          "lines": [
-            76
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/challenges/challenge5/Assignment5.java",
-          "lines": [
-            66
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTFinalEndpoint.java",
-          "lines": [
-            89
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallenge.java",
-          "lines": [
-            69
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6b.java",
-          "lines": [
-            74
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10.java",
-          "lines": [
-            71
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson2.java",
-          "lines": [
-            65
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson3.java",
-          "lines": [
-            63
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson4.java",
-          "lines": [
-            62
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5.java",
-          "lines": [
-            80
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5a.java",
-          "lines": [
-            67
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5b.java",
-          "lines": [
-            86
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java",
-          "lines": [
-            78,
-            158
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java",
-          "lines": [
-            76
-          ]
-        }
-      ],
-      "S4502": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/container/WebSecurityConfig.java",
-          "lines": [
-            80
-          ]
-        }
-      ],
-      "S4790": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/container/WebSecurityConfig.java",
-          "lines": [
-            106
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/cryptography/HashingAssignment.java",
-          "lines": [
-            55
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/webwolf/WebSecurityConfig.java",
-          "lines": [
-            84
-          ]
-        }
-      ],
-      "S5135": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/deserialization/InsecureDeserializationTask.java",
-          "lines": [
-            60
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/vulnerablecomponents/VulnerableComponentsLesson.java",
-          "lines": [
-            57
-          ]
-        }
-      ],
-      "S5144": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/passwordreset/ResetLinkAssignmentForgotPassword.java",
-          "lines": [
-            105
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/ssrf/SSRFTask2.java",
-          "lines": [
-            51
-          ]
-        }
-      ],
-      "S5344": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/container/WebSecurityConfig.java",
-          "lines": [
-            88
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/webwolf/WebSecurityConfig.java",
-          "lines": [
-            67
-          ]
-        }
-      ],
-      "S5659": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTRefreshEndpoint.java",
-          "lines": [
-            107,
-            137
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
-          "lines": [
-            155,
-            180,
-            203
-          ]
-        }
-      ],
-      "S5696": [
-        {
-          "fileId": "WebGoat:src/main/resources/webgoat/static/js/goatApp/view/LessonContentView.js",
-          "lines": [
-            185,
-            221
-          ]
-        }
-      ],
-      "S6096": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java",
-          "lines": [
-            75
-          ]
-        }
-      ],
-      "S6437": [
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTRefreshEndpoint.java",
-          "lines": [
-            89,
-            107,
-            137
-          ]
-        },
-        {
-          "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
-          "lines": [
-            128,
-            155,
-            180,
-            203
-          ]
-        }
-      ]
-    }
+  "benchmark": "WebGoat",
+  "version": "06c0be257f3ec5b02521368b030018816ac94090",
+  "language": "JAVA",
+  "expectedIssues": {
+    "java:S2068": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/challenges/SolutionConstants.java",
+        "lines": [
+          10
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/challenges/challenge7/Assignment7.java",
+        "lines": [
+          36
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/idor/IDORLogin.java",
+        "lines": [
+          35,
+          41
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/insecurelogin/InsecureLoginTask.java",
+        "lines": [
+          21
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTRefreshEndpoint.java",
+        "lines": [
+          45,
+          46,
+          61
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6b.java",
+        "lines": [
+          42
+        ]
+      }
+    ],
+    "javasecurity:S2083": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadBase.java",
+        "lines": [
+          52,
+          53,
+          72,
+          74,
+          104
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java",
+        "lines": [
+          106,
+          112,
+          117
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java",
+        "lines": [
+          73,
+          75
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/xxe/Ping.java",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/webwolf/FileServer.java",
+        "lines": [
+          71,
+          76,
+          77,
+          98,
+          103
+        ]
+      }
+    ],
+    "java:S2092": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
+        "lines": [
+          114,
+          119
+        ]
+      }
+    ],
+    "java:S2245": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/challenges/challenge7/PasswordResetLink.java",
+        "lines": [
+          15
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/csrf/CSRFGetFlag.java",
+        "lines": [
+          39,
+          45,
+          56
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/hijacksession/cas/HijackSessionAuthenticationProvider.java",
+        "lines": [
+          25
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTRefreshEndpoint.java",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/spoofcookie/encoders/EncDec.java",
+        "lines": [
+          16
+        ]
+      }
+    ],
+    "java:S2755": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/xxe/CommentsCache.java",
+        "lines": [
+          71
+        ]
+      }
+    ],
+    "java:S3330": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/hijacksession/HijackSessionAssignment.java",
+        "lines": [
+          67
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
+        "lines": [
+          114
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/spoofcookie/SpoofCookieAssignment.java",
+        "lines": [
+          74
+        ]
+      }
+    ],
+    "javasecurity:S3649": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/challenges/challenge5/Assignment5.java",
+        "lines": [
+          50
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/claimmisuse/JWTHeaderKIDEndpoint.java",
+        "lines": [
+          76
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallenge.java",
+        "lines": [
+          57
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6a.java",
+        "lines": [
+          72
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10.java",
+        "lines": [
+          56
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson2.java",
+        "lines": [
+          49
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson3.java",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson4.java",
+        "lines": [
+          46
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5.java",
+        "lines": [
+          65
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5a.java",
+        "lines": [
+          52
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5b.java",
+        "lines": [
+          69
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java",
+        "lines": [
+          62,
+          142
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java",
+        "lines": [
+          65
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/Servers.java",
+        "lines": [
+          54
+        ]
+      }
+    ],
+    "java:S4502": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/container/WebSecurityConfig.java",
+        "lines": [
+          61
+        ]
+      }
+    ],
+    "java:S4790": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/container/WebSecurityConfig.java",
+        "lines": [
+          88
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/cryptography/HashingAssignment.java",
+        "lines": [
+          39
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/webwolf/WebSecurityConfig.java",
+        "lines": [
+          86
+        ]
+      }
+    ],
+    "javasecurity:S5135": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/deserialization/InsecureDeserializationTask.java",
+        "lines": [
+          45
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/vulnerablecomponents/VulnerableComponentsLesson.java",
+        "lines": [
+          42
+        ]
+      }
+    ],
+    "java:S5344": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/container/WebSecurityConfig.java",
+        "lines": [
+          71,
+          88
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/webwolf/WebSecurityConfig.java",
+        "lines": [
+          70,
+          86
+        ]
+      }
+    ],
+    "java:S5659": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTRefreshEndpoint.java",
+        "lines": [
+          91,
+          121
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
+        "lines": [
+          139,
+          164,
+          187
+        ]
+      }
+    ],
+    "jssecurity:S5696": [
+      {
+        "fileId": "WebGoat:src/main/resources/webgoat/static/js/goatApp/view/LessonContentView.js",
+        "lines": [
+          180,
+          216
+        ]
+      }
+    ],
+    "javasecurity:S6096": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java",
+        "lines": [
+          81
+        ]
+      }
+    ],
+    "java:S6437": [
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/container/WebSecurityConfig.java",
+        "lines": [
+          53
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTRefreshEndpoint.java",
+        "lines": [
+          73,
+          91,
+          121
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTSecretKeyEndpoint.java",
+        "lines": [
+          55,
+          63
+        ]
+      },
+      {
+        "fileId": "WebGoat:src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
+        "lines": [
+          112,
+          139,
+          164,
+          187
+        ]
+      }
+    ],
+    "javasecurity:S6549": [
+      {
+        "fileId": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadBase.java",
+        "lines": [
+          71,
+          72
+        ]
+      }
+    ]
   }
+}
